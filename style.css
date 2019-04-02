@@ -1,0 +1,10 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.package{
+    padding: 30px;
+    border: 1px solid black;
+}
