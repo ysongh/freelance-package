@@ -4,7 +4,6 @@
 
 .home{
     height: 100vh;
-    padding: 100px;
     background-image: url(img/home.jpeg);
     background-size: cover;
 }
@@ -16,9 +15,12 @@
 }
 
 .package{
+    background-color: #b3bff6;
+    height: 100vh;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .package__item{
