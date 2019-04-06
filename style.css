@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 .container{
     
 }
@@ -6,6 +14,10 @@
     height: 100vh;
     background-image: url(img/home.jpeg);
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home__header{
@@ -17,7 +29,6 @@
 .package{
     background-color: #b3bff6;
     height: 100vh;
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
