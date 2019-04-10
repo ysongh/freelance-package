@@ -26,6 +26,14 @@
     text-align: center;
 }
 
+.header{
+    text-align: center;
+}
+
+.header__button{
+    border: 1px solid white;
+}
+
 .package{
     background-color: #b3bff6;
     height: 100vh;
