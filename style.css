@@ -7,7 +7,7 @@
 }
 
 .container{
-    
+
 }
 
 .home{
@@ -36,14 +36,15 @@
     border: 1px solid white;
     text-decoration: none;
     color: white;
-    transition: all .3s;
     font-size: 20px;
+    background-color: rgba(186, 187, 195, .15);
+    transition: all .3s;
 }
 
 .header__button:hover{
     padding: 12px;
     font-size: 23px;
-    background-color: rgba(186, 187, 195, .2);
+    background-color: rgba(186, 187, 195, .4);
 }
 
 .package{
@@ -52,6 +53,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 .package__item{
