@@ -47,13 +47,15 @@
     background-color: rgba(186, 187, 195, .4);
 }
 
-.package{
+.package-section{
     background-color: #b3bff6;
     height: 100vh;
+}
+
+.package{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    scroll-behavior: smooth;
+    align-items: flex-end;
 }
 
 .package__item{
