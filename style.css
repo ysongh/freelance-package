@@ -50,19 +50,22 @@
 .package-section{
     background-color: #3f3c3c;
     height: 100vh;
+    padding-top: 20px;
 }
 
 .package{
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
 }
 
 .package__header{
+    margin-bottom: 40px;
     color: white;
+    text-align: center;
 }
 
 .package__item{
+    height: 50vh;
     padding: 30px;
     border: 1px solid #9e9a9a;
     color: white;
