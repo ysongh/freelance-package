@@ -62,19 +62,27 @@
     margin-bottom: 40px;
     color: white;
     text-align: center;
+    font-size: 50px
 }
 
 .package__price{
     text-align: center;
+    font-size: 40px;
 }
 
 .package__title{
     text-align: center;
+    font-size: 30px;
 }
 
 .package__item{
     height: 50vh;
+    width: 15vw;
     padding: 30px;
     border: 1px solid #9e9a9a;
     color: white;
+}
+
+.package__list{
+    margin-top: 20px;
 }
