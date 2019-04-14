@@ -64,6 +64,14 @@
     text-align: center;
 }
 
+.package__price{
+    text-align: center;
+}
+
+.package__title{
+    text-align: center;
+}
+
 .package__item{
     height: 50vh;
     padding: 30px;
