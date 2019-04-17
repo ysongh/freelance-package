@@ -90,3 +90,15 @@ html{
 .package__list{
     margin-top: 20px;
 }
+
+.technology{
+    background-color: #3a3939;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.technology__header{
+    color: white;
+    text-align: center;
+    font-size: 40px
+}
