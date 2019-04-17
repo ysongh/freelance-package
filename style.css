@@ -49,13 +49,14 @@
 
 .package-section{
     background-color: #3f3c3c;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 20px;
 }
 
 .package{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .package__header{
@@ -76,8 +77,8 @@
 }
 
 .package__item{
-    height: 50vh;
-    width: 15vw;
+    width: 200px;
+    height: 300px;
     padding: 30px;
     border: 1px solid #9e9a9a;
     color: white;
