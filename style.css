@@ -90,6 +90,13 @@ html{
 
 .package__list{
     margin-top: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.package__item{
+    padding: 5px;
 }
 
 .technology{
