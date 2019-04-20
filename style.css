@@ -97,6 +97,7 @@ html{
 
 .package__item{
     padding: 5px;
+    border-bottom: 1px solid #4b4141;
 }
 
 .technology{
