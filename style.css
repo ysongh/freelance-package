@@ -78,12 +78,13 @@ html{
     font-size: 30px;
 }
 
-.package__item{
+.package__box{
     width: 200px;
     height: 300px;
     padding: 30px;
     border: 1px solid #9e9a9a;
-    color: white;
+    background-color: #e7d5d5;
+    color: #131212;
     margin-bottom: 30px;
 }
 
