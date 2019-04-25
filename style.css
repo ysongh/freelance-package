@@ -15,6 +15,9 @@ html{
 .home{
     height: 100vh;
     background-image: url(img/home.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 
     display: flex;
