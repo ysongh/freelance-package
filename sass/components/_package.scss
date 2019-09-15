@@ -6,38 +6,38 @@
     &__section{
         background-color: #3f3c3c;
         min-height: 100vh;
-        padding-top: 20px;
+        padding-top: 2rem;
     }
     
     &__header{
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
         color: white;
         text-align: center;
-        font-size: 50px
+        font-size: 5rem;
     }
     
     &__price{
         text-align: center;
-        font-size: 40px;
+        font-size: 4rem;
     }
     
     &__title{
         text-align: center;
-        font-size: 30px;
+        font-size: 3rem;
     }
     
     &__box{
-        width: 200px;
-        height: 300px;
-        padding: 30px;
+        width: 20rem;
+        height: 30rem;
+        padding: 3rem;
         border: 1px solid #9e9a9a;
         background-color: #e7d5d5;
         color: #131212;
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     &__list{
-        margin-top: 20px;
+        margin-top: 2rem;
         list-style: none;
         margin: 0;
         padding: 0;
