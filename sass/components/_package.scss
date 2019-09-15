@@ -1,7 +1,4 @@
 .package{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 
     &__section{
         background-color: $color-black-1;
@@ -27,8 +24,6 @@
     }
     
     &__box{
-        width: 20rem;
-        height: 30rem;
         padding: 3rem;
         border: 1px solid $color-grey-1;
         background-color: $color-grey-2;
