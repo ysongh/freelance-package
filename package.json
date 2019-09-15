@@ -1,0 +1,22 @@
+{
+  "name": "freelance",
+  "version": "1.0.0",
+  "description": "Package",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysongh/freelance-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysongh/freelance-package/issues"
+  },
+  "homepage": "https://github.com/ysongh/freelance-package#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
