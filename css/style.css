@@ -35,7 +35,7 @@ html {
 
 .package__price {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 .package__title {
   text-align: center;
@@ -45,8 +45,10 @@ html {
   padding: 3rem;
   border: 1px solid #9e9a9a;
   background-color: #e7d5d5;
-  color: #131212;
-  margin-bottom: 3rem; }
+  color: #131212; }
+  @media only screen and (max-width: 37.5em) {
+    .package__box {
+      margin-bottom: 1rem; } }
 
 .package__list {
   margin-top: 2rem;
@@ -56,6 +58,8 @@ html {
 
 .package__item {
   padding: 5px;
+  font-size: 1.7rem;
+  line-height: 1.7;
   border-bottom: 1px solid #4b4141; }
 
 .technology {
@@ -93,15 +97,15 @@ html {
     margin-bottom: 3rem; }
 
 .packageSection {
-  padding: 0 20rem;
+  padding: 0 15rem 5rem 15rem;
   background-color: #4b4141; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .packageSection {
-      padding: 0 5rem; } }
+      padding: 0 5rem 5rem 5rem; } }
   .packageSection__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .packageSection__grid {
         grid-template-columns: 1fr; } }
   .packageSection__grid div:first-child {
@@ -110,27 +114,27 @@ html {
   .packageSection__grid div:nth-child(2) {
     grid-column: 2 / 2;
     grid-row: 1 / 1; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .packageSection__grid div:nth-child(2) {
         grid-column: 1 / 1;
         grid-row: 2 / 2; } }
   .packageSection__grid div:nth-child(3) {
     grid-column: 1 / 1;
     grid-row: 2 / 2; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .packageSection__grid div:nth-child(3) {
         grid-row: 3/ 3; } }
   .packageSection__grid div:nth-child(4) {
     grid-column: 2 / 2;
     grid-row: 2 / 2; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .packageSection__grid div:nth-child(4) {
         grid-column: 1 / 1;
         grid-row: 4 / 4; } }
   .packageSection__grid div:last-child {
     grid-column: 3 / -1;
     grid-row: 1 / 3; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .packageSection__grid div:last-child {
         grid-column: 1 / 1;
         grid-row: 5 / 5; } }

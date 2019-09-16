@@ -15,7 +15,7 @@
     
     &__price{
         text-align: center;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     &__title{
@@ -28,7 +28,10 @@
         border: 1px solid $color-grey-1;
         background-color: $color-grey-2;
         color: #131212;
-        margin-bottom: 3rem;
+
+        @include respond(phone){
+            margin-bottom: 1rem;
+        }
     }
     
     &__list{
@@ -40,6 +43,8 @@
     
     &__item{
         padding: 5px;
+        font-size: 1.7rem;
+        line-height: 1.7;
         border-bottom: 1px solid $color-black-2;
     }
 }
