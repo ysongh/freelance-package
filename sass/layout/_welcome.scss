@@ -1,0 +1,15 @@
+.welcome{
+    height: 10rem;
+    text-align: center;
+    padding-top: 3rem;
+    background-color: $color-black-1;
+    color: $color-white-1;
+
+    & h1{
+        font-size: 3rem;
+    }
+
+    & p{
+        font-size: 2rem;
+    }
+}

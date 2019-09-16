@@ -138,3 +138,14 @@ html {
       .packageSection__grid div:last-child {
         grid-column: 1 / 1;
         grid-row: 5 / 5; } }
+
+.welcome {
+  height: 10rem;
+  text-align: center;
+  padding-top: 3rem;
+  background-color: #3f3c3c;
+  color: white; }
+  .welcome h1 {
+    font-size: 3rem; }
+  .welcome p {
+    font-size: 2rem; }
