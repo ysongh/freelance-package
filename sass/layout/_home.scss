@@ -6,14 +6,102 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     &__header{
         font-size: 5rem;
         color: $color-white-1;
         text-align: center;
         margin-bottom: 3rem;
     }
+}
+
+.top-bar{
+    background: #3b3e46;
+    min-height: 51px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index:100;
+}
+.top-links{
+    float: left;
+    color: #d8d8d8;
+    font-size: 13px;
+    line-height: 51px;
+    font-weight: 400;
+    padding-left: 11px;
+}
+.top-links.rgtflot{
+    float: right;
+    padding-right: 10px;
+}
+.top-bar h6 i{
+    background: none;
+    font-size: 16px;
+    color: #00c2e5;
+    display:inline;
+    margin: 7px 4px;
+    vertical-align: middle;
+}
+.top-bar .socialfollow {
+    float: right;
+    margin-right: 10px;
+}
+.top-bar a.topbar-btn {
+    color: #fff;
+    background: #77da55;
+    line-height: 51px;
+    height: 52px;
+    display: inline-block;
+    padding: 0 15px;
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    transition: .2s all ease;
+}
+
+.top-bar h6, .top-inf h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+}
+.top-links a{
+    color: #fff;
+    font-size: 10px;
+    display: inline;
+    margin: 0 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .6px;
+}
+
+a, a:visited {
+    color: #09f;
+    text-decoration: none;
+    outline: 0;
+}
+.top-bar .socialfollow a {
+    padding: 0;
+    background: 0 0;
+    margin: 14px 3px 0;
+    background-color: #303239;
+    border: 1px solid #2c2d34;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+}
+.socialfollow a {
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 7px;
+    transition: .3s all;
+}
+.top-bar .socialfollow i, .top-links .socialfollow a:before {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 13px;
+}
+a:hover, .socialfollow i:hover,  .navbar .nav>li>a:before, .btn-group .btn, #nav .active a, #nav>li:hover>a{
+    color: #0ab1f0;
 }
