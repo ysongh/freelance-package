@@ -34,12 +34,16 @@ html {
   font-size: 5rem; }
 
 .package__price {
-  text-align: center;
-  font-size: 3rem; }
+  text-align: right;
+  font-size: 3rem;
+  transform: rotate(-50deg) translate(-13px, -26px);
+  position: absolute;
+  color: green; }
 
 .package__title {
   text-align: center;
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-bottom: 1rem; }
 
 .package__box {
   padding: 3rem;

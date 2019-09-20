@@ -14,13 +14,17 @@
     }
     
     &__price{
-        text-align: center;
+        text-align: right;
         font-size: 3rem;
+        transform: rotate(-50deg) translate(-13px, -26px);
+        position: absolute;
+        color: green;
     }
     
     &__title{
         text-align: center;
         font-size: 3rem;
+        margin-bottom: 1rem;
     }
     
     &__box{
