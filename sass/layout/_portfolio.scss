@@ -1,0 +1,28 @@
+.portfolio{
+    background-color: $color-black-1;
+    color: white;
+    text-align: center;
+
+    &__header{
+        font-size: 3.5rem;
+        padding: 4rem 0;
+    }
+
+    & div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    & figure{
+        margin: 2rem;
+    }
+
+    & figcaption{
+        font-size: 2.3rem;
+    }
+
+    & img{
+        width: 30rem;
+    }
+}
