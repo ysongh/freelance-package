@@ -362,3 +362,24 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
       .packageSection__grid div:last-child {
         grid-column: 1 / 1;
         grid-row: 5 / 5; } }
+
+.carousel {
+  background: #2f4357;
+  margin-top: 20px; }
+
+.carousel-item {
+  text-align: center;
+  min-height: 230px;
+  /* Prevent carousel from being distorted if for some reason image doesn't load */ }
+
+.bs-example {
+  margin-top: 100px; }
+
+.carousel-img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%; }
+
+@media only screen and (max-width: 950px) {
+  .bs-example {
+    margin-top: 120px; } }
