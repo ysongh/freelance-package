@@ -199,6 +199,13 @@ a, a:visited {
 a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #nav .active a, #nav > li:hover > a {
   color: #0ab1f0; }
 
+.footer {
+  height: 4rem;
+  padding: 1rem 0; }
+  .footer__text {
+    font-size: 2.5rem;
+    text-align: center; }
+
 .portfolio {
   background-color: #3f3c3c;
   color: white;
