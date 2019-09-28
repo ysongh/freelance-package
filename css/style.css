@@ -475,3 +475,26 @@ html {
 @media only screen and (max-width: 950px) {
   .bs-example {
     margin-top: 120px; } }
+
+.service {
+  background-color: #3a3939;
+  padding: 2rem 0;
+  color: white;
+  text-align: center; }
+  .service__title {
+    font-size: 5rem;
+    margin-bottom: 2rem; }
+  .service__area {
+    display: flex;
+    justify-content: space-around; }
+  .service__card {
+    border: 2px solid white;
+    padding: 3rem 0;
+    width: 30rem; }
+    .service__card i {
+      font-size: 3rem;
+      margin-bottom: 2rem; }
+    .service__card h3 {
+      font-size: 2.5rem; }
+    .service__card p {
+      font-size: 1.6rem; }
