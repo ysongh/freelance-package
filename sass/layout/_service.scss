@@ -12,12 +12,17 @@
     &__area {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     &__card {
         border: 2px solid white;
         padding: 3rem 0;
         width: 30rem;
+        margin-bottom: 2rem;
+        box-shadow: 1px 3px 5px white;
+        border-radius: 3px;
+        background: linear-gradient(-45deg, rgb(93, 83, 104) 50%, rgba(19, 6, 49, 0.5) 50%);
 
         & i{
             font-size: 3rem;

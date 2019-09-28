@@ -98,12 +98,13 @@ html {
     text-align: center; }
 
 .home {
-  height: 30vh;
+  height: 50vh;
   background-image: url(../img/home.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 2rem; }
   .home__header {
     font-size: 5rem;
     color: white;
@@ -486,11 +487,16 @@ html {
     margin-bottom: 2rem; }
   .service__area {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
   .service__card {
     border: 2px solid white;
     padding: 3rem 0;
-    width: 30rem; }
+    width: 30rem;
+    margin-bottom: 2rem;
+    box-shadow: 1px 3px 5px white;
+    border-radius: 3px;
+    background: linear-gradient(-45deg, #5d5368 50%, rgba(19, 6, 49, 0.5) 50%); }
     .service__card i {
       font-size: 3rem;
       margin-bottom: 2rem; }

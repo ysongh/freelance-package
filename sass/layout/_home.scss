@@ -1,10 +1,11 @@
 .home{
-    height: 30vh;
+    height: 50vh;
     background-image: url(../img/home.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 2rem;
 
     &__header{
         font-size: 5rem;
