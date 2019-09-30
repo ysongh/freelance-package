@@ -213,20 +213,22 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 
 .portfolio {
   background-color: #3f3c3c;
-  color: white;
-  text-align: center; }
+  color: white; }
   .portfolio__header {
     font-size: 3.5rem;
     padding: 4rem 0; }
-  .portfolio div {
+  .portfolio__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap; }
-  .portfolio figure {
+  .portfolio__card figure {
     margin: 2rem; }
-  .portfolio figcaption {
-    font-size: 2.3rem; }
-  .portfolio img {
+  .portfolio__card figcaption {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: bold; }
+  .portfolio__card img {
     width: 30rem; }
 
 .packageSection {
