@@ -336,7 +336,8 @@ html {
     position: fixed;
     top: 51px;
     background-color: #fff;
-    display: flex; }
+    display: flex;
+    z-index: 100; }
   .hamburger-btn .fa-bars,
   .hamburger-btn .fa-times {
     float: right;

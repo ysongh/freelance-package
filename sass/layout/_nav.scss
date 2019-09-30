@@ -80,6 +80,7 @@ html { scroll-behavior: smooth; }
       top: 51px;
       background-color: #fff;
       display: flex;
+      z-index: 100;
     }
    
     .hamburger-btn .fa-bars,
