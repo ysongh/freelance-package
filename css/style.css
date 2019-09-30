@@ -236,7 +236,8 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
     .portfolio__card p {
       font-size: 1.8rem; }
     .portfolio__card img {
-      width: 30rem; }
+      width: 30rem;
+      height: 20rem; }
 
 .packageSection {
   padding: 0 15rem 5rem 15rem;
