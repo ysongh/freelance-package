@@ -9,17 +9,18 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
-.header__button {
-  padding: 1rem;
-  border: 1px solid white;
+.site__button:link, .site__button:visited {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: .5rem 3rem;
+  border: 2px inset white;
   text-decoration: none;
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   background-color: rgba(186, 187, 195, 0.15);
-  transition: all .3s; }
-  .header__button:hover {
-    padding: 1.2rem;
-    font-size: 2.3rem;
+  text-decoration: none;
+  transition: background-color .5s; }
+  .site__button:link:hover, .site__button:visited:hover {
     background-color: rgba(186, 187, 195, 0.4); }
 
 .package__section {
@@ -216,20 +217,26 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
   color: white; }
   .portfolio__header {
     font-size: 3.5rem;
-    padding: 4rem 0; }
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center; }
   .portfolio__container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-  .portfolio__card figure {
-    margin: 2rem; }
-  .portfolio__card figcaption {
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 2rem 0;
-    font-weight: bold; }
-  .portfolio__card img {
-    width: 30rem; }
+  .portfolio__card {
+    padding: 2rem 0; }
+    .portfolio__card figure {
+      margin: 2rem; }
+    .portfolio__card figcaption {
+      font-size: 2.7rem;
+      text-align: center;
+      padding: 2rem 0;
+      font-weight: bold; }
+    .portfolio__card p {
+      font-size: 1.8rem; }
+    .portfolio__card img {
+      width: 30rem; }
 
 .packageSection {
   padding: 0 15rem 5rem 15rem;
