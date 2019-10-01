@@ -41,6 +41,12 @@
                 $(".hamburger-btn .fa-bars").show();
                 $(".mobileNav ul").removeClass("active");
             });
+
+            $(".mobileNav_link").click(function () {
+                $(".hamburger-btn .fa-times").hide();
+                $(".hamburger-btn .fa-bars").show();
+                $(".mobileNav ul").removeClass("active");
+            });
         });
 
 
@@ -124,7 +130,7 @@
                     <a href="#" class="mobileNav_link">Home</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#about" class="mobileNav_link">About</a>
+                    <a href="./about.html" class="mobileNav_link">About</a>
                 </li>
                 <li class="mobileNav__item">
                     <a href="#services" class="mobileNav_link">Services</a>
