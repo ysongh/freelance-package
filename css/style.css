@@ -247,19 +247,23 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
   .process__header {
     font-size: 3.5rem;
     text-align: center; }
-  .process__area {
+  .process__container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5rem; }
     @media only screen and (max-width: 56.25em) {
-      .process__area {
+      .process__container {
         flex-direction: column; } }
+  .process__area {
+    background-color: #645f5f;
+    padding: 2.5rem 4.5rem;
+    border-radius: 50%;
+    margin-bottom: 0; }
+    .process__area span {
+      font-size: 3.5rem; }
     .process__area p {
-      font-size: 4rem;
-      background-color: #645f5f;
-      padding: 2.5rem 4.5rem;
-      border-radius: 50%;
+      font-size: 1.4rem;
       margin-bottom: 0; }
   .process__line {
     width: 100%;
