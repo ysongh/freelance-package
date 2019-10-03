@@ -264,7 +264,8 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
       font-size: 3.5rem; }
     .process__area p {
       font-size: 1.4rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      white-space: nowrap; }
   .process__line {
     width: 100%;
     height: 2px;
