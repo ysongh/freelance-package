@@ -105,16 +105,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .home__header {
     font-size: 5rem;
     color: white;
     text-align: center;
     margin-bottom: 3rem; }
-  .home p {
-    font-size: 3rem;
-    color: white;
-    text-align: center; }
 
 .top-bar {
   background: #3b3e46;
