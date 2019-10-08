@@ -25,12 +25,26 @@ html {
 
 .package {
   perspective: 150rem;
-  background-color: #e7d5d5;
-  height: 50rem;
-  width: 30rem;
-  transition: transform 1s; }
-  .package:hover {
+  position: relative;
+  height: 40rem;
+  width: 30rem; }
+  .package__side {
+    background-color: #e7d5d5;
+    height: 40rem;
+    transition: transform 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
+    .package__side--front {
+      background-color: white; }
+    .package__side--back {
+      transform: rotateY(-180deg); }
+  .package:hover .package__side--front {
     transform: rotateY(180deg); }
+  .package:hover .package__side--back {
+    transform: rotateY(0); }
   .package__section {
     background-color: #3f3c3c;
     min-height: 100vh;
@@ -41,10 +55,7 @@ html {
     text-align: center;
     font-size: 5rem; }
   .package__price {
-    text-align: right;
     font-size: 3rem;
-    transform: rotate(-50deg) translate(-13px, -26px);
-    position: absolute;
     color: green; }
   .package__title {
     text-align: center;
