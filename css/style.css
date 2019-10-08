@@ -27,7 +27,9 @@ html {
   perspective: 150rem;
   position: relative;
   height: 40rem;
-  width: 30rem; }
+  width: 30rem;
+  border-radius: 50px;
+  margin-bottom: 5rem; }
   .package__side {
     background-color: #e7d5d5;
     height: 40rem;
@@ -35,11 +37,17 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    backface-visibility: hidden; }
+    width: 90%;
+    backface-visibility: hidden;
+    padding: 1.3rem;
+    border-radius: 50px; }
     .package__side--front {
       background-color: white; }
     .package__side--back {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       transform: rotateY(-180deg); }
   .package:hover .package__side--front {
     transform: rotateY(180deg); }
@@ -60,7 +68,7 @@ html {
   .package__title {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 1rem; }
+    margin: 3rem 0; }
   .package__box {
     padding: 3rem;
     border: 1px solid #9e9a9a;
@@ -81,14 +89,14 @@ html {
     border-bottom: 1px solid #4b4141; }
   .package__button {
     display: block;
-    width: 30%;
+    width: 50%;
     padding: 1rem;
     border: 1px solid #3f3c3c;
     text-decoration: none;
     color: #3f3c3c;
     font-size: 2rem;
     background-color: rgba(186, 187, 195, 0.15);
-    margin: 2rem auto;
+    margin: 2rem 0;
     text-align: center;
     border-radius: 20px; }
 
@@ -297,7 +305,8 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
       padding: 0 5rem 5rem 5rem; } }
   .packageSection__grid {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
 
 html {
   scroll-behavior: smooth; }
@@ -449,7 +458,8 @@ html {
       padding: 0 5rem 5rem 5rem; } }
   .packageSection__grid {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
 
 .carousel {
   background: #2f4357;

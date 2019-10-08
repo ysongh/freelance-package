@@ -3,6 +3,8 @@
     position: relative;
     height: 40rem;
     width: 30rem;
+    border-radius: 50px;
+    margin-bottom: 5rem;
 
     &__side{
         background-color: $color-grey-2;
@@ -11,14 +13,20 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 90%;
         backface-visibility: hidden;
+        padding: 1.3rem;
+        border-radius: 50px;
 
         &--front{
             background-color: $color-white-1;
         }
 
         &--back{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             transform: rotateY(-180deg);
         }
     }
@@ -52,7 +60,7 @@
     &__title{
         text-align: center;
         font-size: 3rem;
-        margin-bottom: 1rem;
+        margin: 3rem 0;
     }
     
     &__box{
@@ -82,14 +90,14 @@
 
     &__button{
         display: block;
-        width: 30%;
+        width: 50%;
         padding: 1rem;
         border: 1px solid $color-black-1;
         text-decoration: none;
         color: $color-black-1;
         font-size: 2rem;
         background-color: rgba(186, 187, 195, .15);
-        margin: 2rem auto;
+        margin: 2rem 0;
         text-align: center;
         border-radius: 20px;
     }
