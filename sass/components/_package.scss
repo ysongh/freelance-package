@@ -1,4 +1,13 @@
 .package{
+    perspective: 150rem;
+    background-color: $color-grey-2;
+    height: 50rem;
+    width: 30rem;
+    transition: transform 1s;
+
+    &:hover{
+        transform: rotateY(180deg);
+    }
 
     &__section{
         background-color: $color-black-1;
