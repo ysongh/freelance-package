@@ -24,7 +24,7 @@
     <script>
         $(document).ready(function () {
             $('.smooth-goto').on('click', function () {
-                $('html, body').animate({ scrollTop: $(this.hash).offset().top - 150}, 0);
+                $('html, body').animate({ scrollTop: $(this.hash).offset().top - 160}, 0);
                 return false;
             });
 
@@ -38,6 +38,12 @@
 
             $(".hamburger-btn .fa-times").click(function () {
                 $(this).hide();
+                $(".hamburger-btn .fa-bars").show();
+                $(".mobileNav ul").removeClass("active");
+            });
+
+            $(".mobileNav_link").click(function () {
+                $(".hamburger-btn .fa-times").hide();
                 $(".hamburger-btn .fa-bars").show();
                 $(".mobileNav ul").removeClass("active");
             });
@@ -118,19 +124,19 @@
             </div>
             <ul class="mobileNav__list">
                 <li class="mobileNav__item">
-                    <a href="#" class="mobileNav_link">Home</a>
+                    <a href="index.html" class="mobileNav_link">Home</a>
                 </li>
                 <li class="mobileNav__item">
                     <a href="#about" class="mobileNav_link">About</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#services" class="mobileNav_link">Services</a>
+                    <a href="index.html#services" class="mobileNav_link">Services</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#prices" class="mobileNav_link">Prices</a>
+                    <a href="index.html#prices" class="mobileNav_link">Prices</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#portfolio" class="mobileNav_link">Portfolio</a>
+                    <a href="index.html#portfolio" class="mobileNav_link">Portfolio</a>
                 </li>
                 <li class="mobileNav__item">
                     <a href="#quote-request" class="mobileNav_link">Quote Request</a>
@@ -139,7 +145,7 @@
         </nav>
 
         <main>
-            <section class="about__container">
+            <section class="about__container" id="about">
                 <div class="row">
                     <div class="column1">
                         <div class="about__wrapper">
