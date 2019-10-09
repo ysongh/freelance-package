@@ -24,7 +24,7 @@
     <script>
         $(document).ready(function () {
             $('.smooth-goto').on('click', function () {
-                $('html, body').animate({ scrollTop: $(this.hash).offset().top - 150}, 0);
+                $('html, body').animate({ scrollTop: $(this.hash).offset().top - 160}, 0);
                 return false;
             });
 
@@ -41,9 +41,13 @@
                 $(".hamburger-btn .fa-bars").show();
                 $(".mobileNav ul").removeClass("active");
             });
+
+            $(".mobileNav_link").click(function () {
+                $(".hamburger-btn .fa-times").hide();
+                $(".hamburger-btn .fa-bars").show();
+                $(".mobileNav ul").removeClass("active");
+            });
         });
-
-
 
     </script>
     <title>The Web Amigos</title>
@@ -118,45 +122,153 @@
             </div>
             <ul class="mobileNav__list">
                 <li class="mobileNav__item">
-                    <a href="#" class="mobileNav_link">Home</a>
+                    <a href="index.html" class="mobileNav_link">Home</a>
                 </li>
                 <li class="mobileNav__item">
                     <a href="#about" class="mobileNav_link">About</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#services" class="mobileNav_link">Services</a>
+                    <a href="index.html#services" class="mobileNav_link">Services</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#prices" class="mobileNav_link">Prices</a>
+                    <a href="index.html#prices" class="mobileNav_link">Prices</a>
                 </li>
                 <li class="mobileNav__item">
-                    <a href="#portfolio" class="mobileNav_link">Portfolio</a>
+                    <a href="index.html#portfolio" class="mobileNav_link">Portfolio</a>
                 </li>
                 <li class="mobileNav__item">
                     <a href="#quote-request" class="mobileNav_link">Quote Request</a>
                 </li>
             </ul>
         </nav>
-            <main>
-                <section class="technology" id="team">
-                    <h2 class="technology__header">About us</h2>
-                    <h2 class="technology__header">About us</h2>
-                    <h2 class="technology__header">About us</h2>
-                    <h2 class="technology__header">About us</h2>
-                    <br>
-                    introduction about the web amigos 
-                    <h2 class="technology__header">Meet the team </h2>
-                </section>
 
-                <section id="team">
-                    <p>Our Team</p>
-                </section>
+        <main>
+            <section class="about__container" id="about">
+                <div class="row">
+                    <div class="column1">
+                        <div class="about__wrapper">
+                            <div class="subtitle-element">
+                                <h4>Our <strong>Story</strong></h4>
+                            </div>
+                            <div class="about__wrapper">
+                                <h2>Who we are &amp; what we do</h2>
+                                <h3 style="font-size: 17px;">We’re a Web Design Agency based in USA & Mexico.</h3>
+                                <p>
+                                    We are your tech friends that help you build your dream website from start to finish. We do
+                                    it all from design to implementation and from deployment to production made with love.
+                                    We take your business requirements, designs and ideas and convert them into a functional,
+                                    reliable, and interactive app/web solution with professional designs, intelligent content
+                                    and responsive designs.
+                                </p>
+                                <h5>Big Results With Affordable prices.</h5>
+                            </div>
+                            <div class="about__wrapper">
+                                <p>
+                                    Our Mission is to help people build their website within their budget. Whether you’re a
+                                    small or big company, we are here to help you. We focus on your website while you focus on
+                                    what matters, your business. We bring you the best marketing initiatives and the best web
+                                    solutions that help you achieve your goals faster.
+                                </p>
+                                <p>
+                                    And because we’re an independent digital agency, our prices won’t slow you down.
+                                </p>
+                            </div>
+                            <div class="about__wrapper">
+                                <h2>Why use us?</h2>
+                                <h6 style="font-size: 14px"><em>We have cross-sector experience</em></h6>
+                                <p>
+                                    Through years of working with businesses, we understand your business needs and we build
+                                    each solution around them, we help you achieve both long and short-term goals. We know that
+                                    every small goal is part of a larger strategy. Our services are designed to help you with
+                                    all aspects of your online business from designing to implementation, from deployment to
+                                    production.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="column2">
+                        <img class="about-img" src="img/about/about.jpg" alt="about image">
+                    </div>
+                </div>
+            </section>
+            <hr class="vertical-space1">
 
-                <section id="team">
-                    <p>Our Team</p>
-                </section>
 
-            </main>
+            <section class="team__container" id="team">
+                <div class="about__wrapper">
+                    <div class="max-title max-title4">
+                        <h2>MEET <strong>OUR TEAM</strong></h2>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card">
+                        <img src="./img/about/LuisC.jpg" alt="Song" style="width:100%">
+                        <h1>Luis Carbajal</h1>
+                        <p class="title">Software Developer at NYC Of Technology</p>
+                        <p>
+                            Professionally trained software developer, skilled with the ability to identify challenges and meticulously solve them. I'm excited about building great products that help people to interact with technology and information in a new way.
+                        </p>
+                        <p><button>Contact</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/about/song.jpg" alt="John" style="width:100%">
+                        <h1>You Song</h1>
+                        <p class="title">FullStack Developer at Real CheapNY</p>
+                        <p>
+                            My name is You Song. I am a web developer who enjoys building fun and awesome websites. During my free time, I created projects using modern technologies. I am always curious about learning new technologies.
+                        </p>
+                        <p><button>Contact</button></p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/about/LuisC.jpg" alt="Song" style="width:100%">
+                        <h1>Luis Carbajal</h1>
+                        <p class="title">Software Developer at NYC Of Technology</p>
+                        <p>
+                            Professionally trained software developer, skilled with the ability to identify challenges and meticulously solve them. I'm excited about building great products that help people to interact with technology and information in a new way.
+                        </p>
+                        <p><button>Contact</button></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team__container">
+                <div class="subtitle-element team__container">
+                    <h2>  What is <strong> next?</strong></h2>
+                </div>
+
+                <div class="container">
+                    <div class="nextstep__card">
+                        <h1>Take The Next Step Today</h1><br>
+                        <p>
+                            Are you starting a new web project or want to build a flexible, maintainable digital solution that
+                            saves you money in the long run? Need to manage and securely deliver web content accross omni
+                            channels
+                            and devices?
+                            If you want to use our services or have questions, please send us a message, we
+                            usually reply within 24 hrs.
+
+                            Thank you for taking interest in our services and we looking forward to working together!
+                        </p>
+                        <button class="btn">
+                            <span class="btn__visible">Contact us</span>
+                            <span class="btn__invisible">20 % OFF New Customers</span>
+                        </button>
+                    </div>
+
+                    <div class="nextstep__card">
+                        <img src="./img/about/nextstep3.jpg" alt="next step" style="width:70%">
+                    </div>
+                </div><br><br>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p class="footer__text">
+                Copyright &copy; 2019 The Web Amigos
+            </p>
+        </footer>
     </div>
 </body>
 
