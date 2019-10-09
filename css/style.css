@@ -233,7 +233,8 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 
 .portfolio {
   background-color: #3f3c3c;
-  color: white; }
+  color: white;
+  padding: 2rem 3rem; }
   .portfolio__header {
     font-size: 3.5rem;
     padding-top: 3rem;
