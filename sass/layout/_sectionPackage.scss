@@ -11,4 +11,21 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
+    &__include{
+        background-color: $color-grey-2;
+        padding: .5rem 1rem 1rem 1rem;
+    }
+
+    &__includeList{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 1rem;
+        list-style-type: none;
+    }
+
+    &__includeItem{
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
 }
