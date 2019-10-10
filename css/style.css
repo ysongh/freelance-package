@@ -34,7 +34,6 @@ body {
   border-radius: 10px;
   margin-bottom: 5rem; }
   .package__side {
-    background-color: #e7d5d5;
     height: 40rem;
     transition: transform 1s;
     position: absolute;
@@ -42,15 +41,22 @@ body {
     left: 0;
     width: 90%;
     backface-visibility: hidden;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.5); }
     .package__side--front {
-      background-color: #9e9a9a; }
+      background-color: white; }
     .package__side--back {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       transform: rotateY(-180deg); }
+      .package__side--back--1 {
+        background-color: #c7a26b; }
+      .package__side--back--2 {
+        background-color: silver; }
+      .package__side--back--3 {
+        background-color: gold; }
   .package:hover .package__side--front {
     transform: rotateY(180deg); }
   .package:hover .package__side--back {
