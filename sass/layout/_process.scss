@@ -1,12 +1,12 @@
 .process{
     min-height: 30vh;
     padding: 3rem 0;
-    background-color: $color-black-3;
     color: white;
 
     &__header{
         font-size: 3.5rem;
         text-align: center;
+        color: $color-black-1;
     }
 
     &__container{
@@ -36,6 +36,7 @@
             font-size: 1.4rem;
             margin-bottom: 1px;
             white-space: nowrap;
+            color: $color-white-1;
         }
     }
 
@@ -43,7 +44,7 @@
         width: 100%;
         height: 2px;
         position: relative;
-        background-color: white;
+        background-color: $color-black-1;
 
         @include respond(port){
             width: 2px;

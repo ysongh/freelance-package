@@ -9,13 +9,16 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
+body {
+  background-color: #f0f4f5; }
+
 .site__button:link, .site__button:visited {
   display: inline-block;
   margin-top: 1.2rem;
   padding: .5rem 3rem;
-  border: 2px inset white;
+  border: 2px inset #3f3c3c;
   text-decoration: none;
-  color: white;
+  color: #3f3c3c;
   font-size: 1.7rem;
   background-color: rgba(186, 187, 195, 0.15);
   text-decoration: none;
@@ -42,7 +45,7 @@ html {
     padding: 1.3rem;
     border-radius: 50px; }
     .package__side--front {
-      background-color: white; }
+      background-color: #9e9a9a; }
     .package__side--back {
       display: flex;
       flex-direction: column;
@@ -59,7 +62,7 @@ html {
     padding-top: 2rem; }
   .package__header {
     margin-bottom: 4rem;
-    color: white;
+    color: #9e9a9a;
     text-align: center;
     font-size: 5rem; }
   .package__price {
@@ -101,11 +104,10 @@ html {
     border-radius: 20px; }
 
 .technology {
-  background-color: #3a3939;
   min-height: 100vh;
   padding-top: 2rem; }
   .technology__header {
-    color: white;
+    color: #3f3c3c;
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem; }
@@ -115,7 +117,7 @@ html {
     grid-row-gap: 3rem; }
   .technology__icon {
     font-size: 10rem;
-    color: white;
+    color: #3f3c3c;
     text-align: center; }
 
 .home {
@@ -226,20 +228,22 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 
 .footer {
   height: 4rem;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  background-color: #3f3c3c; }
   .footer__text {
     font-size: 2.5rem;
-    text-align: center; }
+    text-align: center;
+    color: white; }
 
 .portfolio {
-  background-color: #3f3c3c;
   color: white;
   padding: 2rem 3rem; }
   .portfolio__header {
     font-size: 3.5rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    text-align: center; }
+    text-align: center;
+    color: #3f3c3c; }
   .portfolio__container {
     display: flex;
     justify-content: space-around;
@@ -252,7 +256,8 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
       font-size: 2.7rem;
       text-align: center;
       padding: 2rem 0;
-      font-weight: bold; }
+      font-weight: bold;
+      color: #3f3c3c; }
     .portfolio__card p {
       font-size: 1.8rem; }
     .portfolio__card img {
@@ -262,11 +267,11 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 .process {
   min-height: 30vh;
   padding: 3rem 0;
-  background-color: #3a3939;
   color: white; }
   .process__header {
     font-size: 3.5rem;
-    text-align: center; }
+    text-align: center;
+    color: #3f3c3c; }
   .process__container {
     display: flex;
     justify-content: center;
@@ -287,20 +292,20 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
     .process__area p {
       font-size: 1.4rem;
       margin-bottom: 1px;
-      white-space: nowrap; }
+      white-space: nowrap;
+      color: white; }
   .process__line {
     width: 100%;
     height: 2px;
     position: relative;
-    background-color: white; }
+    background-color: #3f3c3c; }
     @media only screen and (max-width: 56.25em) {
       .process__line {
         width: 2px;
         height: 5rem; } }
 
 .packageSection {
-  padding: 0 15rem 5rem 15rem;
-  background-color: #4b4141; }
+  padding: 0 15rem 5rem 15rem; }
   @media only screen and (max-width: 56.25em) {
     .packageSection {
       padding: 0 5rem 5rem 5rem; } }
@@ -463,8 +468,7 @@ html {
     cursor: pointer; } }
 
 .packageSection {
-  padding: 0 15rem 5rem 15rem;
-  background-color: #4b4141; }
+  padding: 0 15rem 5rem 15rem; }
   @media only screen and (max-width: 56.25em) {
     .packageSection {
       padding: 0 5rem 5rem 5rem; } }
@@ -506,13 +510,13 @@ html {
     margin-top: 120px; } }
 
 .service {
-  background-color: #3a3939;
   padding: 2rem 0;
   color: white;
   text-align: center; }
   .service__title {
     font-size: 5rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    color: #3f3c3c; }
   .service__area {
     display: flex;
     justify-content: space-around;
@@ -531,10 +535,10 @@ html {
     .service__card h3 {
       font-size: 2.5rem; }
     .service__card p {
-      font-size: 1.6rem; }
+      font-size: 1.6rem;
+      color: white; }
 
 .about__container {
-  color: black;
   padding: 3rem 6rem;
   margin-top: 14rem; }
 

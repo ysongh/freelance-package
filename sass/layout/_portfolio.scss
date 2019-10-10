@@ -1,6 +1,5 @@
 .portfolio{
-    background-color: $color-black-1;
-    color: white;
+    color: $color-white-1;
     padding: 2rem 3rem;
 
     &__header{
@@ -8,6 +7,7 @@
         padding-top: 3rem;
         padding-bottom: 1rem;
         text-align: center;
+        color: $color-black-1;
     }
 
     &__container{
@@ -28,6 +28,7 @@
             text-align: center;
             padding: 2rem 0;
             font-weight: bold;
+            color: $color-black-1;
         }
 
         & p{
