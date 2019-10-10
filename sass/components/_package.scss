@@ -3,7 +3,7 @@
     position: relative;
     height: 40rem;
     width: 30rem;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-bottom: 5rem;
 
     &__side{
@@ -15,8 +15,7 @@
         left: 0;
         width: 90%;
         backface-visibility: hidden;
-        padding: 1.3rem;
-        border-radius: 50px;
+        border-radius: 10px;
 
         &--front{
             background-color: $color-grey-1;
@@ -60,7 +59,21 @@
     &__title{
         text-align: center;
         font-size: 3rem;
-        margin: 3rem 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 1rem;
+
+        &--1{
+            background-color: #c7a26b;
+        }
+
+        &--2{
+            background-color: silver;
+        }
+
+        &--3{
+            background-color: gold;
+        }
     }
     
     &__box{
