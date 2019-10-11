@@ -12,6 +12,12 @@ html {
 body {
   background-color: #f0f4f5; }
 
+.green {
+  color: green !important; }
+
+.red {
+  color: red !important; }
+
 .site__button:link, .site__button:visited {
   display: inline-block;
   margin-top: 1.2rem;
