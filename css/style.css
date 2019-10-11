@@ -67,6 +67,22 @@ body {
     transform: rotateY(180deg); }
   .package:hover .package__side--back {
     transform: rotateY(0); }
+  @media only screen and (max-width: 37.5em) {
+    .package {
+      height: auto;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0; }
+      .package__side {
+        height: auto;
+        position: relative;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0; }
+        .package__side--back {
+          transform: rotateY(0);
+          border-top-left-radius: 0;
+          border-top-right-radius: 0; }
+      .package:hover .package__side--front {
+        transform: rotateY(0); } }
   .package__section {
     background-color: #3f3c3c;
     min-height: 100vh;
@@ -77,8 +93,12 @@ body {
     text-align: center;
     font-size: 5rem; }
   .package__price {
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: green; }
+    @media only screen and (max-width: 37.5em) {
+      .package__price {
+        font-size: 4rem;
+        margin-top: 1.5rem; } }
   .package__title {
     text-align: center;
     font-size: 3rem;
