@@ -12,6 +12,10 @@ html {
 body {
   background-color: #f0f4f5; }
 
+a:hover, a:visited {
+  color: inherit;
+  text-decoration: inherit; }
+
 .green {
   color: green !important; }
 
