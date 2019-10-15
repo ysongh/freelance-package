@@ -596,13 +596,14 @@ html {
 
 .column2 {
   flex: 1;
-  padding: 40px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */ }
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  padding-left: 40px; }
 
 .about-img {
-  height: 150%;
-  width: 100%;
+  height: initial;
+  width: 90%;
   object-fit: contain; }
 
 .subtitle-element:after {
@@ -731,7 +732,7 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: stretch; }
+  align-items: left; }
 
 .team__columns {
   display: flex;
@@ -763,8 +764,14 @@ a:hover {
     height: 100%;
     width: 100%;
     transition: all .2s; }
+  .btn .btn > * {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    transition: all .2s; }
   .btn__visible {
-    padding: 2rem; }
+    padding: 2rem;
+    width: max-content; }
   .btn__invisible {
     display: inline-block;
     position: absolute;
@@ -781,7 +788,7 @@ a:hover {
     outline: none;
     animation: pulsate 1s infinite; }
 
-@media only screen and (max-width: 950px) {
+@media (min-width: 769px) and (max-width: 950px) {
   .desk {
     display: none; }
   .top-links.rgtflot {
@@ -831,9 +838,50 @@ a:hover {
     text-decoration: none;
     outline: 0; } }
 
-@media only screen and (max-width: 593px) {
+@media (min-width: 593px) and (max-width: 769px) {
+  .team__container {
+    padding: 0rem; }
+  .card {
+    max-width: 250px; } }
+
+@media (min-width: 480px) and (max-width: 593px) {
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    /* flex: 2; */ }
+  .card {
+    max-width: 80%;
+    padding-bottom: 2px; }
+  .nextstep-img {
+    display: none; } }
+
+@media (min-width: 250px) and (max-width: 480px) {
+  .subtitle-element {
+    padding-top: 20px; }
+  .subtitle-element:after {
+    background-color: #00c2e5;
+    width: 250px;
+    margin-top: -18px; }
+  .btn {
+    width: -webkit-fill-available; }
   .row {
     display: block; }
   .column2 {
     padding: 0px;
-    height: auto; } }
+    height: auto;
+    text-align: center; }
+  .card {
+    max-width: 100%;
+    padding-bottom: 2px; }
+  .team__container {
+    padding-top: 20px;
+    padding-bottom: 0px; }
+  .about__container {
+    margin-top: 14rem;
+    padding-top: 0rem;
+    padding-right: 3rem;
+    padding-bottom: 0rem;
+    padding-left: 3rem; }
+  .nextstep-img {
+    display: none; } }
