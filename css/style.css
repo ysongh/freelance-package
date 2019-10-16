@@ -17,10 +17,10 @@ a:hover, a:visited {
   text-decoration: inherit; }
 
 .green {
-  color: green !important; }
+  color: #143314 !important; }
 
 .red {
-  color: red !important; }
+  color: #b4b1b3 !important; }
 
 .site__button:link, .site__button:visited {
   display: inline-block;
@@ -131,8 +131,7 @@ a:hover, a:visited {
   .package__item {
     padding: 5px;
     font-size: 1.7rem;
-    line-height: 1.7;
-    border-bottom: 1px solid #4b4141; }
+    line-height: 1.7; }
   .package__button {
     display: block;
     width: 50%;
