@@ -12,3 +12,15 @@
         @media only screen and (min-width: 112.5em){ @content };
     }
 }
+
+@mixin backgroundGreen{
+    background-image: linear-gradient(to right bottom, #c9eeb0, #058b53);
+}
+
+@mixin backgroundBlue {
+    background-image: linear-gradient(to right bottom, #b0daee, #052f8b);
+}
+
+@mixin backgroundPurple {
+    background-image: linear-gradient(to right bottom, #eeb0eb, #87058b);
+}
