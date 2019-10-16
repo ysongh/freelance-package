@@ -164,10 +164,10 @@ a:hover, a:visited {
     text-align: center; }
 
 .home {
-  height: 50vh;
-  background-image: url(../img/home.jpeg);
+  height: auto;
+  background-image: url(../img/map.png);
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 2rem;
@@ -176,7 +176,7 @@ a:hover, a:visited {
   align-items: center; }
   .home__header {
     font-size: 5rem;
-    color: white;
+    color: black;
     text-align: center;
     margin-bottom: 3rem; }
 
@@ -416,15 +416,31 @@ html {
   justify-content: center; }
 
 .logo__image {
-  height: 70px;
+  height: 55px;
   margin: 6px 0px; }
 
 .mobileNav {
   display: none; }
 
-@media only screen and (max-width: 950px) {
+.mobileNav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+@media (min-width: 950px) and (max-width: 1040px) {
+  .logo {
+    background: #fff;
+    flex: 0 0 25%;
+    display: flex;
+    flex: 1; }
+  .logo__image {
+    height: 40px; } }
+
+@media (min-width: 200px) and (max-width: 950px) {
   .desk {
     display: none; }
+  .mobileLogoText__image {
+    height: 40px !important; }
   .top-links.rgtflot {
     float: right;
     padding-right: 0px; }
@@ -433,10 +449,6 @@ html {
     display: block; }
   .mobileLogoText {
     padding-left: 5px; }
-  .mobileLogoText__image {
-    float: left;
-    height: 80px;
-    width: 230px; }
   .hamburger-btn {
     position: relative; }
   .mobileNav {
@@ -454,7 +466,7 @@ html {
     color: #40b2f1;
     cursor: pointer; }
   .mobileNav ul {
-    margin-top: 70px;
+    margin-top: 0px !important;
     background: #364a4b;
     display: none; }
   .mobileNav li {
@@ -471,44 +483,6 @@ html {
     color: #feffff;
     text-decoration: none;
     outline: 0; } }
-
-@media only screen and (max-width: 593px) {
-  .lftflot, .socialfollow {
-    display: none; }
-  .top-bar {
-    background: #3b3e46;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 100; }
-  .top-bar a.topbar-btn {
-    float: none;
-    line-height: 26px;
-    height: 24px;
-    border-radius: 33px;
-    font-size: 11px;
-    font-weight: 500;
-    background-color: #0ab1f0; }
-  .rgtflot {
-    float: none !important;
-    text-align: center;
-    clear: both; }
-  .mobileNav {
-    width: 100%;
-    position: fixed;
-    background-color: #fff;
-    display: flex;
-    top: 50px; }
-  .mobileLogoText__image {
-    max-height: 58px;
-    max-width: 150px; }
-  .hamburger-btn .fa-bars,
-  .hamburger-btn .fa-times {
-    float: right;
-    padding: 12px 20px 12px 0px;
-    font-size: 35px;
-    color: #40b2f1;
-    cursor: pointer; } }
 
 .packageSection {
   padding: 0 15rem 5rem 15rem; }
@@ -885,3 +859,45 @@ a:hover {
     padding-left: 3rem; }
   .nextstep-img {
     display: none; } }
+
+.welcome {
+  padding-top: 7rem;
+  padding-right: 3px;
+  padding-bottom: 3rem;
+  padding-left: 3px;
+  text-align: center; }
+
+.titleW {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 5px;
+  font-weight: 600; }
+
+.jum {
+  width: 50%; }
+
+.decorated {
+  overflow: hidden;
+  text-align: center; }
+
+.decorated > span {
+  position: relative;
+  display: inline-block; }
+
+.decorated > span:before, .decorated > span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 2px solid;
+  color: blue;
+  width: 95%;
+  /* half of limiter*/
+  margin: 0 20px; }
+
+.decorated > span:before {
+  right: 100%; }
+
+.decorated > span:after {
+  left: 100%; }
