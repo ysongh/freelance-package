@@ -1,0 +1,42 @@
+.welcome{
+    padding-top: 7rem;
+    padding-right: 3px;
+    padding-bottom: 3rem;
+    padding-left: 3px;
+    text-align: center;
+}
+.titleW {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.jum{
+    width: 50%;
+}
+
+.decorated{
+    overflow: hidden;
+    text-align: center;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid;
+   color:blue;
+   width: 95%; /* half of limiter*/
+   margin: 0 20px;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
