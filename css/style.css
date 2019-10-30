@@ -880,7 +880,8 @@ a:hover {
   font-weight: 600; }
 
 .jum {
-  width: 50%; }
+  width: 50%;
+  margin: auto; }
 
 .decorated {
   overflow: hidden;
