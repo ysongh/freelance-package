@@ -93,7 +93,6 @@ a:hover, a:visited {
     padding-top: 2rem; }
   .package__header {
     margin-bottom: 4rem;
-    color: #9e9a9a;
     text-align: center;
     font-size: 5rem; }
   .package__price {
@@ -151,7 +150,8 @@ a:hover, a:visited {
       text-decoration: none; }
 
 .technology {
-  min-height: 100vh;
+  background-color: #ddfadddd;
+  color: white;
   padding-top: 2rem; }
   .technology__header {
     color: #3f3c3c;
@@ -314,6 +314,7 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 .process {
   min-height: 30vh;
   padding: 3rem 0;
+  background-color: #ddfadddd;
   color: white; }
   .process__header {
     font-size: 3.5rem;
@@ -532,6 +533,7 @@ html {
 
 .service {
   padding: 2rem 0;
+  background-color: #ddfadddd;
   color: white;
   text-align: center; }
   .service__title {
