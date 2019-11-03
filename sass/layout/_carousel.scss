@@ -1,6 +1,27 @@
 .carousel{
-    background: #2f4357;
+    background: #535555;
     margin-top: 20px;
+    position: relative;
+    color: $color-white-1;
+
+    &__text{
+        z-index: 20;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        & h1{
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        & p{
+            font-size: 2.5rem;
+        }
+    }
 }
 .carousel-item{
     text-align: center;
@@ -13,6 +34,7 @@
     vertical-align: middle;
     border-style: none;
     width: 100%;
+    opacity: .5;
 }
 
 
