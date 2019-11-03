@@ -10,16 +10,29 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        @include respond(port){
+            top: 50%;
+        }
         
         & h1{
             font-size: 4rem;
             font-weight: bold;
             text-transform: uppercase;
             margin-bottom: 1rem;
+
+            @include respond(port){
+                font-size: 2rem;
+            }
         }
 
         & p{
             font-size: 2.5rem;
+            line-height: 1.2;
+
+            @include respond(port){
+                font-size: 1.5rem;
+            }
         }
     }
 }
@@ -34,7 +47,7 @@
     vertical-align: middle;
     border-style: none;
     width: 100%;
-    opacity: .5;
+    opacity: .3;
 }
 
 
