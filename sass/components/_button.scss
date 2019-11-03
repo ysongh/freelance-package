@@ -9,11 +9,33 @@
         color: $color-black-1;
         font-size: 1.7rem;
         background-color: rgba(186, 187, 195, .15);
-        text-decoration: none;
         transition: background-color .5s;
 
         &:hover{
             background-color: rgba(186, 187, 195, .4);
+        }
+    }
+}
+
+.button{
+    &:link,
+    &:visited{
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+.button-link{
+    &:link,
+    &:visited{
+        font-size: 2.5rem;
+        background-color:$color-green-dark;
+        padding: .3rem 1.5rem;
+        border: 2px inset $color-white-1;
+        color: $color-white-1;
+
+        @include respond(port){
+            font-size: 1.5rem;
         }
     }
 }
