@@ -126,7 +126,7 @@ a:hover, a:visited {
   .package__title {
     text-align: center;
     font-size: 3rem;
-    color: white;
+    color: #3f3c3c;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 1rem; }
@@ -322,12 +322,12 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
       margin: 2rem; }
     .portfolio__card figcaption {
       font-size: 2.7rem;
-      text-align: center;
       padding: 2rem 0;
       font-weight: bold;
       color: #3f3c3c; }
     .portfolio__card p {
-      font-size: 1.8rem; }
+      font-size: 1.8rem;
+      color: #3f3c3c; }
     .portfolio__card img {
       width: 30rem;
       height: 20rem; }
