@@ -171,7 +171,7 @@ a:hover, a:visited {
       text-decoration: none; }
 
 .technology {
-  background-color: #ddfadddd;
+  background-color: #c7f1c7dd;
   color: white;
   padding-top: 2rem; }
   .technology__header {
@@ -335,7 +335,7 @@ a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #
 .process {
   min-height: 30vh;
   padding: 3rem 0;
-  background-color: #ddfadddd;
+  background-color: #c7f1c7dd;
   color: white; }
   .process__header {
     font-size: 3.5rem;
@@ -559,6 +559,8 @@ html {
       @media only screen and (max-width: 56.25em) {
         .carousel__text p {
           font-size: 1.5rem; } }
+    .carousel__text span {
+      color: #c7f1c7dd; }
 
 .carousel-item {
   text-align: center;
@@ -580,7 +582,7 @@ html {
 
 .service {
   padding: 2rem 0;
-  background-color: #ddfadddd;
+  background-color: #c7f1c7dd;
   color: white;
   text-align: center; }
   .service__title {
