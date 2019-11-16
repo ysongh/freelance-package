@@ -264,11 +264,6 @@ a:hover, a:visited {
   font-weight: 400;
   letter-spacing: .6px; }
 
-a, a:visited {
-  color: #09f;
-  text-decoration: none;
-  outline: 0; }
-
 .top-bar .socialfollow a {
   padding: 0;
   background: 0 0;
@@ -291,7 +286,7 @@ a, a:visited {
   font-size: 16px;
   padding-top: 13px; }
 
-a:hover, .socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #nav .active a, #nav > li:hover > a {
+.socialfollow i:hover, .navbar .nav > li > a:before, .btn-group .btn, #nav .active a, #nav > li:hover > a {
   color: #0ab1f0; }
 
 .footer {
@@ -430,10 +425,12 @@ html {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 0 15px;
+  padding: 2rem 1.5rem;
   letter-spacing: 0.3px;
-  line-height: 90px;
-  transition: background .15s ease-in-out; }
+  text-decoration: none;
+  transition: background-color .15s ease-in-out; }
+  .navigation__link:hover {
+    background-color: #e8e8ec; }
 
 .logo {
   background: #fff;
@@ -504,11 +501,7 @@ html {
     display: block; }
   nav.desk ul li:hover,
   nav.mobileNav ul li:hover {
-    background: #a3ada5; }
-  a {
-    color: #feffff;
-    text-decoration: none;
-    outline: 0; } }
+    background-color: #e8e8ec; } }
 
 .packageSection {
   padding: 0 15rem 5rem 15rem; }

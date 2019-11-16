@@ -81,11 +81,6 @@
     letter-spacing: .6px;
 }
 
-a, a:visited {
-    color: #09f;
-    text-decoration: none;
-    outline: 0;
-}
 .top-bar .socialfollow a {
     padding: 0;
     background: 0 0;
@@ -108,6 +103,6 @@ a, a:visited {
     font-size: 16px;
     padding-top: 13px;
 }
-a:hover, .socialfollow i:hover,  .navbar .nav>li>a:before, .btn-group .btn, #nav .active a, #nav>li:hover>a{
+.socialfollow i:hover,  .navbar .nav>li>a:before, .btn-group .btn, #nav .active a, #nav>li:hover>a{
     color: #0ab1f0;
 }

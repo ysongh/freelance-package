@@ -32,10 +32,14 @@ html { scroll-behavior: smooth; }
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
-    padding: 0 15px;
+    padding: 2rem 1.5rem;
     letter-spacing: 0.3px;
-    line-height: 90px;
-    transition: background .15s ease-in-out;
+    text-decoration: none;
+    transition: background-color .15s ease-in-out;
+
+    &:hover{
+      background-color: #e8e8ec;
+    }
   }
   .logo {
     background: #fff;
@@ -127,12 +131,7 @@ html { scroll-behavior: smooth; }
     }
     nav.desk ul li:hover,
     nav.mobileNav ul li:hover{
-      background: #a3ada5;
-    }
-    a{
-      color: #feffff;
-      text-decoration: none;
-      outline: 0;
+      background-color: #e8e8ec;
     }
   }
 
