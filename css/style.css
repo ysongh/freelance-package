@@ -173,7 +173,8 @@ a:hover, a:visited {
 .technology {
   background-color: #c7f1c7dd;
   color: white;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
   .technology__header {
     color: #3f3c3c;
     text-align: center;
@@ -181,8 +182,11 @@ a:hover, a:visited {
     margin-bottom: 3rem; }
   .technology__icons {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .technology__icons {
+        grid-template-columns: repeat(2, 1fr); } }
   .technology__icon {
     font-size: 10rem;
     color: #3f3c3c;
