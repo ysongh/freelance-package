@@ -578,7 +578,7 @@ html {
     margin-top: 120px; } }
 
 .service {
-  padding: 2rem 0;
+  padding: 2rem 5rem;
   background-color: #c7f1c7dd;
   color: white;
   text-align: center; }
@@ -588,7 +588,7 @@ html {
     color: #3f3c3c; }
   .service__area {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap; }
   .service__card {
     border: 2px solid white;
@@ -912,7 +912,7 @@ a:hover {
     display: none; } }
 
 .welcome {
-  padding: 7rem 3rem;
+  padding: 7rem 5rem;
   text-align: center; }
   .welcome__title {
     margin-top: 0;
@@ -923,7 +923,6 @@ a:hover {
     font-weight: 600;
     font-size: 3rem; }
   .welcome__main {
-    width: 80%;
     font-size: 2rem;
     text-align: left;
     line-height: 1.3;
