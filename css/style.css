@@ -332,11 +332,9 @@ a:hover, a:visited {
 
 .process {
   min-height: 30vh;
-  padding: 3rem 0;
-  background-color: #c7f1c7dd;
-  color: white; }
+  padding: 5rem 5rem; }
   .process__header {
-    font-size: 3.5rem;
+    font-size: 5rem;
     text-align: center;
     color: #3f3c3c; }
   .process__container {
@@ -372,7 +370,8 @@ a:hover, a:visited {
         height: 5rem; } }
 
 .packageSection {
-  padding: 5rem 5rem; }
+  padding: 5rem 5rem;
+  background-color: #c7f1c7dd; }
   @media only screen and (max-width: 56.25em) {
     .packageSection {
       padding: 0 5rem 5rem 5rem; } }
@@ -507,7 +506,8 @@ html {
     background-color: #e8e8ec; } }
 
 .packageSection {
-  padding: 5rem 5rem; }
+  padding: 5rem 5rem;
+  background-color: #c7f1c7dd; }
   @media only screen and (max-width: 56.25em) {
     .packageSection {
       padding: 0 5rem 5rem 5rem; } }
