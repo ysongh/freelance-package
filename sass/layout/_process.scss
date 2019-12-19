@@ -10,7 +10,7 @@
     &__container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        grid-column-gap: 5rem;
         margin: 3rem 0;
 
         @include respond(port){
@@ -69,5 +69,7 @@
         }
     }
 
-    
+    &__reverse-text{
+        order: 2;
+    }
 }
