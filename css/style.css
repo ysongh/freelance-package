@@ -438,17 +438,6 @@ a:hover, a:visited {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-  .packageSection__include {
-    background-color: #e7d5d5;
-    padding: .5rem 1rem 1rem 1rem; }
-  .packageSection__includeList {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 1rem;
-    list-style-type: none; }
-  .packageSection__includeItem {
-    margin-right: 2rem;
-    font-size: 2rem; }
 
 html {
   scroll-behavior: smooth; }
@@ -574,17 +563,6 @@ html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-  .packageSection__include {
-    background-color: #e7d5d5;
-    padding: .5rem 1rem 1rem 1rem; }
-  .packageSection__includeList {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 1rem;
-    list-style-type: none; }
-  .packageSection__includeItem {
-    margin-right: 2rem;
-    font-size: 2rem; }
 
 .carousel {
   background: #535555;
