@@ -32,9 +32,11 @@
         padding: .3rem 1.5rem;
         border: 2px inset $color-white-1;
         color: $color-white-1;
+        margin-right: .5rem;
 
         @include respond(port){
             font-size: 1.5rem;
+            padding: .3rem 1rem;
         }
     }
 }
