@@ -125,22 +125,6 @@ h5 {
     height: 3px;
 }
 
-button {
-    border: none;
-    outline: 0;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-button:hover,
-a:hover {
-    opacity: 0.7;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;

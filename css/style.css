@@ -61,20 +61,37 @@ a:hover, a:visited {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: inherit; }
+  margin: inherit;
+  margin-bottom: 2rem; }
   .card__img {
     width: 100%;
-    height: 28rem; }
+    height: 27rem; }
   .card__text {
     padding: 1.2rem;
+    height: 28rem;
     text-align: center; }
   .card__name {
     font-size: 3rem; }
   .card__title {
     color: grey;
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-bottom: .5rem; }
   .card__bio {
     text-align: left; }
+  .card__button {
+    position: absolute;
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding: .5rem 0;
+    bottom: 0; }
+  .card__button:hover {
+    opacity: 0.7; }
 
 .package {
   perspective: 150rem;
@@ -786,20 +803,6 @@ h5 {
   transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
   height: 3px; }
-
-button {
-  border: none;
-  outline: 0;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px; }
-
-button:hover,
-a:hover {
-  opacity: 0.7; }
 
 .container {
   display: flex;
