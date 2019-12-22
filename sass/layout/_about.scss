@@ -124,22 +124,10 @@ h5 {
     -webkit-transform: translate(-50%,0);
     height: 3px;
 }
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: inherit;
-    text-align: center;
-}
-  
-.title {
-    color: grey;
-    font-size: 18px;
-}
 
 button {
     border: none;
     outline: 0;
-    display: table-row-group;
     color: white;
     background-color: #000;
     text-align: center;

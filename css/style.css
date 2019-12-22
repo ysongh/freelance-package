@@ -58,6 +58,24 @@ a:hover, a:visited {
       font-size: 1.5rem;
       padding: .3rem 1rem; } }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: inherit; }
+  .card__img {
+    width: 100%;
+    height: 28rem; }
+  .card__text {
+    padding: 1.2rem;
+    text-align: center; }
+  .card__name {
+    font-size: 3rem; }
+  .card__title {
+    color: grey;
+    font-size: 1.8rem; }
+  .card__bio {
+    text-align: left; }
+
 .package {
   perspective: 150rem;
   position: relative;
@@ -769,20 +787,9 @@ h5 {
   -webkit-transform: translate(-50%, 0);
   height: 3px; }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: inherit;
-  text-align: center; }
-
-.title {
-  color: grey;
-  font-size: 18px; }
-
 button {
   border: none;
   outline: 0;
-  display: table-row-group;
   color: white;
   background-color: #000;
   text-align: center;
