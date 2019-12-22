@@ -52,7 +52,8 @@ a:hover, a:visited {
   padding: .3rem 1.5rem;
   border: 2px inset white;
   color: white;
-  margin-right: .5rem; }
+  margin-right: .5rem;
+  border-radius: 10px; }
   @media only screen and (max-width: 56.25em) {
     .button-link:link, .button-link:visited {
       font-size: 1.5rem;
@@ -617,19 +618,22 @@ html {
       .carousel__text {
         width: 65%; } }
     .carousel__text h1 {
-      font-size: 4rem;
+      font-size: 4.5rem;
       font-weight: bold;
       text-transform: uppercase;
-      margin-bottom: 1rem; }
+      margin-bottom: 2rem; }
       @media only screen and (max-width: 56.25em) {
         .carousel__text h1 {
-          font-size: 2.5rem; } }
+          font-size: 2.5rem;
+          margin-bottom: 1rem; } }
     .carousel__text p {
       font-size: 2.5rem;
-      line-height: 1.2; }
+      line-height: 1.2;
+      margin-bottom: 3rem; }
       @media only screen and (max-width: 56.25em) {
         .carousel__text p {
-          font-size: 1.5rem; } }
+          font-size: 1.5rem;
+          margin-bottom: 2rem; } }
     .carousel__text span {
       color: #c7f1c7dd; }
 

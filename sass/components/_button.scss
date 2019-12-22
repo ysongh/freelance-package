@@ -33,6 +33,7 @@
         border: 2px inset $color-white-1;
         color: $color-white-1;
         margin-right: .5rem;
+        border-radius: 10px;
 
         @include respond(port){
             font-size: 1.5rem;
