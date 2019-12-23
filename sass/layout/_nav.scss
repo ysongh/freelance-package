@@ -117,12 +117,13 @@ html { scroll-behavior: smooth; }
 
     .mobileNav ul{
       margin-top: 0px !important;
-      background: #364a4b;
+      background-color: $color-green;
+      font-size: 2rem;
+      font-weight: bold;
       display: none;
     }
     .mobileNav li {
-      text-align: center;
-      padding: 20px;
+      padding: 1.5rem 2rem;
       text-transform: uppercase;
       cursor: pointer;
     }

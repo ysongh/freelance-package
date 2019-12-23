@@ -576,11 +576,12 @@ html {
     cursor: pointer; }
   .mobileNav ul {
     margin-top: 0px !important;
-    background: #364a4b;
+    background-color: #65c445;
+    font-size: 2rem;
+    font-weight: bold;
     display: none; }
   .mobileNav li {
-    text-align: center;
-    padding: 20px;
+    padding: 1.5rem 2rem;
     text-transform: uppercase;
     cursor: pointer; }
   .mobileNav ul.active {
