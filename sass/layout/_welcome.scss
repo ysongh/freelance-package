@@ -2,7 +2,7 @@
     padding: 7rem 12rem;
 
     @include respond(port){
-        padding: 7rem 6rem;
+        padding: 5rem 6rem;
     }
 
     @include respond(port){
@@ -11,12 +11,13 @@
 
     &__title{
         margin-top: 0;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
+        margin-bottom: 4rem;
         color: #000;
-        letter-spacing: 5px;
-        font-weight: 600;
-        font-size: 3rem;
+        font-size: 5rem;
+
+        @include respond(port){
+            margin-bottom: 1rem;
+        }
     }
 
     &__main{
@@ -53,28 +54,4 @@
 .jum{
     width: 50%;
     margin: auto;
-}
-
-.decorated{
-    overflow: hidden;
-    text-align: center;
-}
-.decorated > span{
-   position: relative;
-   display: inline-block;
-}
-.decorated > span:before, .decorated > span:after{
-   content: '';
-   position: absolute;
-   top: 50%;
-   border-bottom: 2px solid;
-   color:blue;
-   width: 95%; /* half of limiter*/
-   margin: 0 20px;
-}
-.decorated > span:before{
-   right: 100%;
-}
-.decorated > span:after{
-   left: 100%;
 }
