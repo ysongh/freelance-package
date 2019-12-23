@@ -142,27 +142,31 @@
         </nav>
 
         <main>
-            <section>
-                <form method="POST" data-netlify="true">
+            <section class="contact">
+                <h2 class="contact__title">Enter Your Information</h2>
+                <form method="POST" data-netlify="true" class="contact-form">
                     <input
+                        class="contact-form__input"
                         type="text"
                         name="name"
                         id="name"
                         placeholder="Name" />
                     <input
+                        class="contact-form__input"
                         type="email"
                         name="email"
                         id="email"
                         placeholder="Email">
                     <textarea
+                        class="contact-form__input"
                         name="message"
                         id="message"
                         placeholder="Message"
-                        rows="5">
-                    </textarea>
+                        rows="5"></textarea>
                     <input
+                        class="contact-form__button"
                         type="submit"
-                        value="Send Message">
+                        value="Send Message" />
                 </form>
             </section>
         </main>
