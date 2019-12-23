@@ -124,6 +124,9 @@ a:hover, a:visited {
     text-align: center;
     font-size: 5rem;
     margin-bottom: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .contact__title {
+        font-size: 3.5rem; } }
 
 .contact-form {
   display: flex;
@@ -135,6 +138,12 @@ a:hover, a:visited {
     padding: 1rem .5rem;
     margin-bottom: .5rem;
     line-height: 1.4; }
+    @media only screen and (max-width: 56.25em) {
+      .contact-form__input {
+        width: 70%; } }
+    @media only screen and (max-width: 37.5em) {
+      .contact-form__input {
+        width: 80%; } }
   .contact-form__button {
     width: 15rem;
     background-color: #65c445;
