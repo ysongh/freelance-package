@@ -7,6 +7,10 @@
         font-size: 5rem;
         margin-bottom: 2rem;
         color: $color-black-1;
+
+        @include respond(port){
+            font-size: 3rem;
+        }
     }
 
     &__area {

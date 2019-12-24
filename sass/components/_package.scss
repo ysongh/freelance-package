@@ -84,6 +84,10 @@
         margin-bottom: 4rem;
         text-align: center;
         font-size: 5rem;
+
+        @include respond(port){
+            font-size: 3rem;
+        }
     }
     
     &__price{

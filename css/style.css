@@ -215,6 +215,9 @@ a:hover, a:visited {
     margin-bottom: 4rem;
     text-align: center;
     font-size: 5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .package__header {
+        font-size: 3rem; } }
   .package__price {
     font-size: 4.5rem;
     color: white; }
@@ -470,6 +473,9 @@ a:hover, a:visited {
     font-size: 5rem;
     text-align: center;
     color: #3f3c3c; }
+    @media only screen and (max-width: 56.25em) {
+      .process__header {
+        font-size: 3rem; } }
   .process__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -726,6 +732,9 @@ html {
     font-size: 5rem;
     margin-bottom: 2rem;
     color: #3f3c3c; }
+    @media only screen and (max-width: 56.25em) {
+      .service__title {
+        font-size: 3rem; } }
   .service__area {
     display: flex;
     justify-content: space-around;
@@ -1031,9 +1040,6 @@ h5 {
   @media only screen and (max-width: 56.25em) {
     .welcome {
       padding: 5rem 6rem; } }
-  @media only screen and (max-width: 56.25em) {
-    .welcome {
-      grid-template-columns: 1fr; } }
   .welcome__title {
     margin-top: 0;
     margin-bottom: 4rem;
@@ -1041,7 +1047,8 @@ h5 {
     font-size: 5rem; }
     @media only screen and (max-width: 56.25em) {
       .welcome__title {
-        margin-bottom: 1rem; } }
+        margin-bottom: 1rem;
+        font-size: 3rem; } }
   .welcome__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

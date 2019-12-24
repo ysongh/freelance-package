@@ -9,6 +9,10 @@
         font-size: 5rem;
         text-align: center;
         color: $color-black-1;
+
+        @include respond(port){
+            font-size: 3rem;
+        }
     }
 
     &__container{
