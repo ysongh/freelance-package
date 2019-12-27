@@ -49,11 +49,12 @@
         }
     }
 
-    &__logo{
-        width: 25rem;
+    &__icons{
+        display: flex;
+    }
 
-        @include respond(port){
-            display: none;
-        }
+    &__icon{
+        font-size: 3rem;
+        margin-right: 1rem;
     }
 }

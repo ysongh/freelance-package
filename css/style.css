@@ -429,11 +429,11 @@ a:hover, a:visited {
       .footer__text {
         text-align: center;
         grid-column: 1 / -1; } }
-  .footer__logo {
-    width: 25rem; }
-    @media only screen and (max-width: 56.25em) {
-      .footer__logo {
-        display: none; } }
+  .footer__icons {
+    display: flex; }
+  .footer__icon {
+    font-size: 3rem;
+    margin-right: 1rem; }
 
 .portfolio {
   color: white;
