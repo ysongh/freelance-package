@@ -725,9 +725,7 @@ html {
     margin-top: 120px; } }
 
 .service {
-  padding: 2rem 5rem;
-  color: white;
-  text-align: center; }
+  padding: 2rem 5rem; }
   .service__title {
     font-size: 5rem;
     margin-bottom: 2rem;
@@ -735,26 +733,33 @@ html {
     @media only screen and (max-width: 56.25em) {
       .service__title {
         font-size: 3rem; } }
+  .service__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    @media only screen and (max-width: 56.25em) {
+      .service__container {
+        grid-template-columns: 1fr; } }
+  .service__container img {
+    width: 100%; }
   .service__area {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
+    flex-direction: column;
+    margin-left: 5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .service__area {
+        margin-left: 0;
+        margin-top: 2rem; } }
   .service__card {
-    border: 2px solid white;
-    padding: 3rem 0;
-    width: 30rem;
-    margin-bottom: 2rem;
-    box-shadow: 1px 3px 5px white;
-    border-radius: 3px;
-    background: linear-gradient(-45deg, #5d5368 50%, rgba(19, 6, 49, 0.5) 50%); }
+    display: flex;
+    margin: 1rem 0; }
     .service__card i {
-      font-size: 3rem;
-      margin-bottom: 2rem; }
-    .service__card h3 {
+      font-size: 3rem; }
+  .service__text {
+    margin-left: 2rem; }
+    .service__text h3 {
       font-size: 2.5rem; }
-    .service__card p {
-      font-size: 1.6rem;
-      color: white; }
+    .service__text p {
+      font-size: 1.6rem; }
 
 .about__container {
   padding: 3rem 6rem;
