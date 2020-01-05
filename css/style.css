@@ -272,27 +272,6 @@ a:hover, a:visited {
       transform: translateY(-3px);
       text-decoration: none; }
 
-.technology {
-  color: white;
-  padding-top: 2rem;
-  padding-bottom: 5rem; }
-  .technology__header {
-    color: #3f3c3c;
-    text-align: center;
-    font-size: 4rem;
-    margin-bottom: 3rem; }
-  .technology__icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 3rem; }
-    @media only screen and (max-width: 56.25em) {
-      .technology__icons {
-        grid-template-columns: repeat(2, 1fr); } }
-  .technology__icon {
-    font-size: 10rem;
-    color: #3f3c3c;
-    text-align: center; }
-
 .home {
   height: auto;
   background-image: url(../img/map.png);
