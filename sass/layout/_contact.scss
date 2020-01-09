@@ -1,0 +1,25 @@
+.contact{
+    padding: 20rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    @include respond(port){
+        grid-template-columns: 1fr;
+    }
+
+    &__title{
+        font-size: 4rem;
+        margin-bottom: 3rem;
+
+        @include respond(phone){
+            font-size: 3.5rem;
+        }
+    }
+
+    &__infor p{
+        font-size: 2.5rem;
+        color: $color-grey-1;
+        line-height: 1.2;
+    }
+}

@@ -117,33 +117,15 @@ a:hover, a:visited {
 .decorated > span:after {
   left: 100%; }
 
-.contact {
-  margin-top: 15rem;
-  margin-bottom: 10rem; }
-  .contact__title {
-    text-align: center;
-    font-size: 5rem;
-    margin-bottom: 3rem; }
-    @media only screen and (max-width: 37.5em) {
-      .contact__title {
-        font-size: 3.5rem; } }
-
 .contact-form {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
   .contact-form__input {
-    width: 50%;
+    width: 100%;
     font-size: 1.6rem;
     padding: 1rem .5rem;
     margin-bottom: .5rem;
     line-height: 1.4; }
-    @media only screen and (max-width: 56.25em) {
-      .contact-form__input {
-        width: 70%; } }
-    @media only screen and (max-width: 37.5em) {
-      .contact-form__input {
-        width: 80%; } }
   .contact-form__button {
     width: 15rem;
     background-color: #65c445;
@@ -413,6 +395,25 @@ a:hover, a:visited {
   .footer__icon {
     font-size: 3rem;
     margin-right: 1rem; }
+
+.contact {
+  padding: 20rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    .contact {
+      grid-template-columns: 1fr; } }
+  .contact__title {
+    font-size: 4rem;
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .contact__title {
+        font-size: 3.5rem; } }
+  .contact__infor p {
+    font-size: 2.5rem;
+    color: #9e9a9a;
+    line-height: 1.2; }
 
 .portfolio {
   color: white;
