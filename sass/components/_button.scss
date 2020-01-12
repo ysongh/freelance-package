@@ -28,12 +28,17 @@
     &:link,
     &:visited{
         font-size: 2.5rem;
-        background-color:$color-green-dark;
+        background-color: $color-green-dark;
         padding: .3rem 1.5rem;
         border: 2px inset $color-white-1;
         color: $color-white-1;
         margin-right: .5rem;
         border-radius: 10px;
+
+        &:hover{
+            background-color: $color-white-1;
+            color: $color-green-dark;
+        }
 
         @include respond(port){
             font-size: 1.5rem;

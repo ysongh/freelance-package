@@ -63,6 +63,9 @@ a:hover, a:visited {
   color: white;
   margin-right: .5rem;
   border-radius: 10px; }
+  .button-link:link:hover, .button-link:visited:hover {
+    background-color: white;
+    color: #067a06dd; }
   @media only screen and (max-width: 56.25em) {
     .button-link:link, .button-link:visited {
       font-size: 1.5rem;
