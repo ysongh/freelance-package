@@ -1046,7 +1046,7 @@ h5 {
   .welcome__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem; }
+    grid-gap: 3.5rem; }
     @media only screen and (max-width: 56.25em) {
       .welcome__main {
         grid-template-columns: 1fr; } }
@@ -1056,13 +1056,12 @@ h5 {
     text-align: left;
     line-height: 1.3;
     margin: 2rem auto; }
+  .welcome__text h2 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600; }
   .welcome__text p {
-    font-size: 2rem;
-    line-height: 1.5;
-    margin: 2rem; }
-    @media only screen and (max-width: 56.25em) {
-      .welcome__text p {
-        margin: 2rem 0; } }
+    font-size: 2rem; }
   .welcome__img {
     width: 100%; }
 
