@@ -408,6 +408,25 @@ a:hover, a:visited {
     font-size: 3rem;
     margin-right: 1rem; }
 
+.getStarted {
+  margin-bottom: 5rem; }
+  .getStarted__container {
+    background-color: #c7f1c7dd;
+    padding: 5rem 0;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px; }
+    .getStarted__container h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .getStarted__container h2 {
+          font-size: 2.5rem; } }
+
 .contact {
   padding: 20rem 5rem;
   display: grid;

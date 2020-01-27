@@ -1,0 +1,26 @@
+.getStarted{
+    margin-bottom: 5rem;
+
+
+    &__container{
+        background-color: $color-green-light;
+        padding: 5rem 0;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50px;
+
+        & h2{
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+
+            @include respond(port){
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
