@@ -37,8 +37,13 @@
 
         & img{
             width: 30rem;
-            height: 20rem;
+
+            @include respond(port){
+                width: 40rem;
+            }
         }
+
+        
     }
    
 }
