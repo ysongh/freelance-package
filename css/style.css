@@ -761,13 +761,13 @@ a:hover, a:visited {
         margin-top: 2rem; } }
   .service__card {
     display: flex;
-    margin: 1rem 0; }
+    margin-bottom: 1rem; }
     .service__card i {
       font-size: 3rem; }
   .service__text {
     margin-left: 2rem; }
     .service__text h3 {
-      font-size: 2.5rem; }
+      font-size: 3.5rem; }
     .service__text p {
       font-size: 1.6rem; }
 
