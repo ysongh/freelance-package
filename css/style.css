@@ -189,7 +189,9 @@ a:hover, a:visited {
     .package {
       height: auto;
       border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0; }
+      border-bottom-right-radius: 0;
+      width: 40rem;
+      margin-left: 1.5rem; }
       .package__side {
         height: auto;
         position: relative;

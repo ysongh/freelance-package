@@ -6,7 +6,6 @@
     border-radius: 10px;
     margin-bottom: 5rem;
 
-
     &__side{
         height: 40rem;
         transition: transform 1s;
@@ -55,6 +54,8 @@
         height: auto;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
+        width: 40rem;
+        margin-left: 1.5rem;
 
         &__side{
             height: auto;
