@@ -1,8 +1,7 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: inherit;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
     &__img{
         width: 100%;
@@ -22,23 +21,23 @@
     &__title {
         color: grey;
         font-size: 1.8rem;
+        font-weight: bold;
         margin-bottom: .5rem;
     }
 
     &__bio{
         text-align: left;
+        line-height: 1.5;
     }
 
     &__button{
         position: absolute;
         border: none;
         outline: 0;
-        color: white;
-        background-color: #000;
+        background-color: $color-green;
         text-align: center;
-        cursor: pointer;
         width: 100%;
-        font-size: 18px;
+        font-size: 2rem;
         padding: .5rem 0;
         bottom: 0;
     }
