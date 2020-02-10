@@ -457,6 +457,14 @@ a:hover, a:visited {
     color: #9e9a9a;
     line-height: 1.2; }
 
+.contact-form__label {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1; }
+
+.contact-form__input {
+  margin-bottom: 2rem; }
+
 .portfolio {
   color: white;
   padding: 2rem 3rem; }

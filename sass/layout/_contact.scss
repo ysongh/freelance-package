@@ -23,3 +23,16 @@
         line-height: 1.2;
     }
 }
+
+.contact-form{
+
+    &__label{
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+    
+    &__input{
+        margin-bottom: 2rem;
+    }
+}

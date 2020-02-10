@@ -149,25 +149,30 @@
                 </div>
                 
                 <form method="POST" data-netlify="true" class="contact-form">
+                    <label for="name" class="contact-form__label">Name</label>
                     <input
                         class="contact-form__input"
                         type="text"
                         name="name"
                         id="name"
-                        placeholder="Name"
+                        placeholder="ex - Joe Doe"
                         required />
+                    
+                    <label for="email" class="contact-form__label">Email</label>
                     <input
                         class="contact-form__input"
                         type="email"
                         name="email"
                         id="email"
-                        placeholder="Email"
+                        placeholder="ex - joedoe@mail.com"
                         required />
+
+                    <label for="message" class="contact-form__label">Message</label>
                     <textarea
                         class="contact-form__input"
                         name="message"
                         id="message"
-                        placeholder="Message"
+                        placeholder="What your needs?"
                         rows="5"
                         required ></textarea>
                     <input
