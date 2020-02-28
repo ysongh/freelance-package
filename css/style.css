@@ -39,6 +39,9 @@ a:hover, a:visited {
 .red {
   color: #b4b1b3 !important; }
 
+.u-hide {
+  display: none; }
+
 .site__button:link, .site__button:visited {
   display: inline-block;
   margin-top: 1.2rem;
