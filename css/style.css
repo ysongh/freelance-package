@@ -299,16 +299,24 @@ a:hover, a:visited {
   z-index: 100; }
 
 .top-links {
-  float: left;
   color: #d8d8d8;
   font-size: 13px;
   line-height: 51px;
-  font-weight: 400;
-  padding-left: 11px; }
+  font-weight: 400; }
+
+.lftflot {
+  float: left;
+  margin-left: 10rem; }
+  @media only screen and (max-width: 75em) {
+    .lftflot {
+      margin-left: 1rem; } }
 
 .top-links.rgtflot {
   float: right;
-  padding-right: 10px; }
+  margin-right: 11rem; }
+  @media only screen and (max-width: 75em) {
+    .top-links.rgtflot {
+      margin-right: 1rem; } }
 
 .top-bar h6 i {
   background: none;
