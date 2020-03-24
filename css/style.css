@@ -582,20 +582,18 @@ a:hover, a:visited {
   background: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   display: flex;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
-  top: 51px;
+  top: 50px;
   z-index: 200; }
 
 .navigation__list {
   list-style-type: none;
   margin: 0;
-  padding-right: 10px;
-  overflow: hidden;
-  flex: 0 1 75%;
-  display: flex;
-  justify-content: flex-end; }
+  padding: 0 .5rem;
+  overflow: hidden; }
 
 .navigation__item {
   float: left;
@@ -611,18 +609,14 @@ a:hover, a:visited {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-  padding: 2rem 1.5rem;
-  letter-spacing: 0.3px;
+  padding: 2rem 1rem;
   text-decoration: none;
   transition: background-color .15s ease-in-out; }
   .navigation__link:hover {
     background-color: #e8e8ec; }
 
 .logo {
-  background: #fff;
-  flex: 0 0 25%;
-  display: flex;
-  justify-content: center; }
+  background-color: #fff; }
 
 .logo__image {
   height: 55px;
