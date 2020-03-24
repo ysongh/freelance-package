@@ -375,7 +375,7 @@ a:hover, a:visited {
   color: #0ab1f0; }
 
 .footer {
-  padding: 3rem 4rem;
+  padding: 3rem 10rem;
   background-color: #e7d5d5; }
   @media only screen and (max-width: 56.25em) {
     .footer {
@@ -582,7 +582,7 @@ a:hover, a:visited {
   background: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -593,7 +593,8 @@ a:hover, a:visited {
   list-style-type: none;
   margin: 0;
   padding: 0 .5rem;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-right: 10rem; }
 
 .navigation__item {
   float: left;
@@ -616,7 +617,8 @@ a:hover, a:visited {
     background-color: #e8e8ec; }
 
 .logo {
-  background-color: #fff; }
+  background-color: #fff;
+  margin-left: 10rem; }
 
 .logo__image {
   height: 55px;
@@ -753,7 +755,7 @@ a:hover, a:visited {
     margin-top: 120px; } }
 
 .service {
-  padding: 2rem 5rem; }
+  padding: 2rem 11rem; }
   .service__title {
     font-size: 5rem;
     margin-bottom: 2rem;
@@ -763,7 +765,8 @@ a:hover, a:visited {
         font-size: 3rem; } }
   .service__container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5rem; }
     @media only screen and (max-width: 56.25em) {
       .service__container {
         grid-template-columns: 1fr; } }
