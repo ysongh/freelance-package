@@ -123,7 +123,6 @@ h5 {
 
  .nextstep__card {
     flex: 1;
-    text-align: center;
 }
 .btn{
     font-size: 1.5rem;
@@ -131,8 +130,7 @@ h5 {
     text-transform: uppercase;
     border-radius: 100px;
     border: none;
-    // background-image: linear-gradient(to top,  #F0E68C, #B8860B);
-    background-image: linear-gradient(to top, #05fe0d, #3d7a04);
+    background-color:#3d7a04;
     color: white;
     position: relative;
     // hide the second text because it is outside of the button
@@ -170,7 +168,7 @@ h5 {
     // change color
     &:hover{
         // background-image: linear-gradient(to bottom, #F0E68C, #B8860B);
-        background-image: linear-gradient(to bottom, #05fe0d, #3d7a04);
+        background-color: #05fe0d;
     }
 
     // move the first text down
