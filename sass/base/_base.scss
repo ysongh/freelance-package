@@ -23,10 +23,10 @@ html{
 }
 
 body{
-    background-color: #f0f4f5;
+    background-color: $color-white;
 }
 
 a:hover, a:visited{
-    color: black;
+    color: $color-black-1;
     text-decoration: none;
 }

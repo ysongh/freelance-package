@@ -17,7 +17,7 @@
         border-radius: 10px;
 
         &--front{
-            background-color: $color-white-1;
+            background-color: $color-green-light;
         }
 
         &--back{
@@ -92,7 +92,7 @@
     
     &__price{
         font-size: 4.5rem;
-        color: $color-white-1;
+        color: $color-white;
 
         @include respond(phone){
             font-size: 4rem;
@@ -125,7 +125,7 @@
         padding: 3rem;
         border: 1px solid $color-grey-1;
         background-color: $color-grey-2;
-        color: #131212;
+        color: $color-black-1;
 
         @include respond(phone){
             margin-bottom: 1rem;
@@ -153,7 +153,7 @@
         text-decoration: none;
         color: $color-black-1;
         font-size: 2rem;
-        background-color: rgb(255, 255, 255);
+        background-color: $color-white;
         margin: 2rem 0;
         text-align: center;
         border-radius: 20px;
