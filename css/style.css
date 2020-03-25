@@ -800,9 +800,14 @@ a:hover, a:visited {
     .service__text p {
       font-size: 1.6rem; }
 
-.about__container {
+.about {
   padding: 3rem 5rem 3rem 12rem;
   margin-top: 14rem; }
+  .about__title {
+    color: #16D912;
+    font-size: 5rem; }
+  .about__subtitle {
+    font-size: 3rem; }
 
 .row {
   display: flex; }
