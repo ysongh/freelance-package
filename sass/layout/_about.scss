@@ -1,6 +1,6 @@
 
 .about__container{
-    padding: 3rem 6rem;
+    padding: 3rem 5rem 3rem 12rem;
     margin-top: 14rem;
 }
 .row{
@@ -25,11 +25,6 @@
     object-fit: contain;
 }
 .subtitle-element:after {
-    background-color: #00c2e5;
-    width: 306px;
-    margin-top: -18px;
-}
-.subtitle-element:after {
     content: '';
     position: absolute;
     // bottom: -3px;
@@ -51,20 +46,9 @@ h2 {
     padding-left: 0;
     padding-bottom: 35px;
     margin-bottom: 0;
+    margin-left: 5rem;
 }
-.subtitle-element h1:after, .subtitle-element h2:after, .subtitle-element h3:after, .subtitle-element h4:after, .subtitle-element h5:after, .subtitle-element h6:after {
-    content: '';
-    position: absolute;
-    bottom: 8px;
-    left: 26px;
-    width: 13px;
-    height: 13px;
-    background-color: #fff;
-    -webkit-transform: translate(-50%) rotate(45deg);
-    transform: translate(-50%) rotate(45deg);
-    border: 2px solid #00c2e5;
-    z-index: 2;
-}
+
 p {
     margin: 0 0 20px;
     font-size: 14px;
@@ -90,23 +74,7 @@ h5 {
     color: black;
     padding: 3rem 6rem;
 }
- //small square white shape
-.max-title h1:after, .max-title h2:after, .max-title h3:after, .max-title h4:after, .max-title h5:after, .max-title h6:after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    width: 13px;
-    height: 13px;
-    background-color: #fff;
-    transform: translate(-50%) rotate(45deg);
-    border: 2px solid #00c2e5;
-    z-index: 2;
-}
-.max-title:after{
-    background-color: #00c2e5;
-    width: 180px;
-}
+
 .max-title {
     position: relative;
     margin-bottom: 35px;
