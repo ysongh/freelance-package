@@ -586,7 +586,7 @@ a:hover, a:visited {
     justify-content: space-around;
     flex-wrap: wrap; }
 
-.desk {
+.deskNav {
   background: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -596,62 +596,57 @@ a:hover, a:visited {
   width: 100%;
   top: 50px;
   z-index: 200; }
-
-.navigation__list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 .5rem;
-  overflow: hidden;
-  margin-right: 10rem; }
-
-.navigation__item {
-  float: left;
-  padding: 0;
-  margin: 0; }
-
-.navigation__link {
-  display: block;
-  font-weight: 600;
-  color: #444;
-  outline: 0;
-  opacity: 1;
-  text-align: center;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 2rem 1rem;
-  text-decoration: none;
-  transition: background-color .15s ease-in-out; }
-  .navigation__link:hover {
-    background-color: #e8e8ec; }
-
-.logo {
-  background-color: #fff;
-  margin-left: 10rem; }
-
-.logo__image {
-  height: 55px;
-  margin: 6px 0px; }
+  @media only screen and (max-width: 56.25em) {
+    .deskNav {
+      display: none; } }
+  .deskNav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 .5rem;
+    overflow: hidden;
+    margin-right: 10rem; }
+  .deskNav__item {
+    float: left;
+    padding: 0;
+    margin: 0; }
+  .deskNav__link {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    outline: 0;
+    opacity: 1;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 2rem 1rem;
+    text-decoration: none;
+    transition: background-color .15s ease-in-out; }
+    .deskNav__link:hover {
+      background-color: #e8e8ec; }
+  .deskNav__logo {
+    background-color: #fff;
+    margin-left: 10rem; }
+    @media only screen and (max-width: 75em) {
+      .deskNav__logo {
+        background: #fff;
+        flex: 0 0 25%;
+        display: flex;
+        flex: 1; } }
+  .deskNav__image {
+    height: 55px;
+    margin: 6px 0px; }
+    @media only screen and (max-width: 75em) {
+      .deskNav__image {
+        height: 40px; } }
 
 .mobileNav {
   display: none; }
-
-.mobileNav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-@media (min-width: 950px) and (max-width: 1040px) {
-  .logo {
-    background: #fff;
-    flex: 0 0 25%;
+  .mobileNav .mobileNav__container {
     display: flex;
-    flex: 1; }
-  .logo__image {
-    height: 40px; } }
+    justify-content: space-between;
+    align-items: center; }
 
-@media (min-width: 200px) and (max-width: 950px) {
-  .desk {
-    display: none; }
+@media only screen and (max-width: 56.25em) {
   .mobileLogoText__image {
     height: 40px !important; }
   .top-links.rgtflot {

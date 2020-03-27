@@ -1,5 +1,5 @@
 const topBar = document.querySelector('.top-bar');
-const desk = document.querySelector('.desk');
+const desk = document.querySelector('.deskNav');
 const mobileNav = document.querySelector('.mobileNav');
 
 window.addEventListener('scroll', function (e) {

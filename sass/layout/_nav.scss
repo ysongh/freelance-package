@@ -1,27 +1,33 @@
-.desk {
-    background: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 50px;
-    z-index: 200;
+.deskNav {
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  z-index: 200;
+
+  @include respond(port){
+    display: none;
   }
-  .navigation__list {
+
+  &__list {
     list-style-type: none;
     margin: 0;
     padding: 0 .5rem;
     overflow: hidden;
     margin-right: 10rem;
   }
-  .navigation__item {
+
+  &__item {
     float: left;
     padding: 0;
     margin: 0;
   }
-  .navigation__link {
+
+  &__link {
     display: block;
     font-weight: 600;
     color: #444;
@@ -38,95 +44,95 @@
       background-color: #e8e8ec;
     }
   }
-  .logo {
+
+  &__logo {
     background-color: #fff;
     margin-left: 10rem;
+
+    @include respond(land){
+      background: #fff;
+      flex: 0 0 25%;
+      display: flex;
+      flex: 1;
+    }
   }
-  .logo__image {
+
+  &__image {
     height: 55px;
     margin: 6px 0px;
+
+    @include respond(land){
+      height: 40px;
+    }
   }
-  .mobileNav{
-    display: none;
-  }
+}
+
+.mobileNav{
+  display: none;
 
   .mobileNav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+}
 
-  @media (min-width: 950px) and (max-width: 1040px){
-    .logo {
-      background: #fff;
-      flex: 0 0 25%;
-      display: flex;
-      flex: 1;
-    }
-    .logo__image {
-      height: 40px;
-    }
+@include respond(port){
+  .mobileLogoText__image {
+    height: 40px !important;
   }
 
-  @media (min-width: 200px) and (max-width: 950px){
-    .desk{
-      display: none;
-    }
-    .mobileLogoText__image {
-      height: 40px !important;
-    }
-
-    .top-links.rgtflot{
-      float: right;
-      padding-right: 0px;
-    }
-    nav.mobileNav,
-    .hamburger-btn {
-      display: block;
-    }
-
-    .mobileLogoText {
-      padding-left: 5px;
-    }
-    .hamburger-btn{
-      position: relative;
-    }
-    .mobileNav {
-      width: 100%;
-      position: fixed;
-      top: 51px;
-      background-color: #fff;
-      display: flex;
-      z-index: 100;
-    }
-   
-    .hamburger-btn .fa-bars,
-    .hamburger-btn .fa-times {
-      float: right;
-      padding: 20px 20px 10px 0px;
-      font-size: 35px;
-      color:#40b2f1;
-      cursor: pointer;
-    }
-    
-
-    .mobileNav ul{
-      margin-top: 0px !important;
-      background-color: $color-green;
-      font-size: 2rem;
-      font-weight: bold;
-      display: none;
-    }
-    .mobileNav li {
-      padding: 1.5rem 2rem;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-    .mobileNav ul.active {
-      display: block;
-    }
-    nav.desk ul li:hover,
-    nav.mobileNav ul li:hover{
-      background-color: #e8e8ec;
-    }
+  .top-links.rgtflot{
+    float: right;
+    padding-right: 0px;
   }
+  nav.mobileNav,
+  .hamburger-btn {
+    display: block;
+  }
+
+  .mobileLogoText {
+    padding-left: 5px;
+  }
+  .hamburger-btn{
+    position: relative;
+  }
+  .mobileNav {
+    width: 100%;
+    position: fixed;
+    top: 51px;
+    background-color: #fff;
+    display: flex;
+    z-index: 100;
+  }
+ 
+  .hamburger-btn .fa-bars,
+  .hamburger-btn .fa-times {
+    float: right;
+    padding: 20px 20px 10px 0px;
+    font-size: 35px;
+    color:#40b2f1;
+    cursor: pointer;
+  }
+  
+
+  .mobileNav ul{
+    margin-top: 0px !important;
+    background-color: $color-green;
+    font-size: 2rem;
+    font-weight: bold;
+    display: none;
+  }
+  .mobileNav li {
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .mobileNav ul.active {
+    display: block;
+  }
+  nav.desk ul li:hover,
+  nav.mobileNav ul li:hover{
+    background-color: #e8e8ec;
+  }
+}
