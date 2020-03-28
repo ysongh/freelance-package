@@ -39,6 +39,9 @@ a:hover, a:visited {
 .red {
   color: #b4b1b3 !important; }
 
+.u-bg-grey {
+  background-color: #3d3a46 !important; }
+
 .u-hide {
   display: none; }
 
