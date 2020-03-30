@@ -801,6 +801,9 @@ a:hover, a:visited {
 .about {
   padding: 3rem 5rem 3rem 12rem;
   margin-top: 14rem; }
+  @media only screen and (max-width: 56.25em) {
+    .about {
+      padding: 3rem 5rem 3rem 6rem; } }
   .about__title {
     color: #16D912;
     font-size: 5rem; }

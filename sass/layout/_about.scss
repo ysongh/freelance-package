@@ -3,6 +3,10 @@
     padding: 3rem 5rem 3rem 12rem;
     margin-top: 14rem;
 
+    @include respond(port){
+        padding: 3rem 5rem 3rem 6rem;
+    }
+
     &__title{
         color: $color-green;
         font-size: 5rem;
@@ -11,6 +15,7 @@
     &__subtitle{
         font-size: 3rem;
     }
+
 }
 .row{
     display: flex;
