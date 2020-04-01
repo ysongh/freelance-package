@@ -750,7 +750,6 @@ a:hover, a:visited {
 .carousel-img {
   vertical-align: middle;
   border-style: none;
-  width: 100%;
   opacity: .3; }
 
 @media only screen and (max-width: 950px) {
