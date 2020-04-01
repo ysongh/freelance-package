@@ -60,10 +60,6 @@
     border-style: none;
     width: 100%;
     opacity: .3;
-
-    @include respond(port){
-        height: 30rem;
-    }
 }
 
 

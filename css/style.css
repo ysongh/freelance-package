@@ -752,9 +752,6 @@ a:hover, a:visited {
   border-style: none;
   width: 100%;
   opacity: .3; }
-  @media only screen and (max-width: 56.25em) {
-    .carousel-img {
-      height: 30rem; } }
 
 @media only screen and (max-width: 950px) {
   .bs-example {
