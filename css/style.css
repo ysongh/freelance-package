@@ -27,7 +27,8 @@ html {
       font-size: 85%; } }
 
 body {
-  background-color: #fffefe; }
+  background-color: #fffefe;
+  font-family: "Roboto", sans-serif; }
 
 a:hover, a:visited {
   color: #3f3c3c;
